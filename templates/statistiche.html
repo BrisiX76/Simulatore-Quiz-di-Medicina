@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistiche · Test Medicina</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="app-header">
+      <div class="badge">Il tuo progresso</div>
+      <h1>Le tue <span>Statistiche</span></h1>
+    </header>
+
+    <!-- Riepilogo globale -->
+    <div class="stats-row" id="riepilogo" style="margin-bottom: 1.2rem;">
+      <div class="stat-box">
+        <span class="stat-num" id="tot-test">—</span>
+        <span class="stat-label">Test totali</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="media-globale">—</span>
+        <span class="stat-label">Media %</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="migliore">—</span>
+        <span class="stat-label">Miglior score</span>
+      </div>
+    </div>
+
+    <!-- Statistiche per materia -->
+    <div class="card" style="margin-bottom: 1.2rem;">
+      <p style="font-size:0.78rem; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; color:var(--muted); margin-bottom:1rem;">Media per materia</p>
+      <div id="per-materia">
+        <p style="color:var(--muted); font-size:0.9rem;">Nessun test ancora.</p>
+      </div>
+    </div>
+
+    <!-- Storico test -->
+    <div class="card">
+      <p style="font-size:0.78rem; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; color:var(--muted); margin-bottom:1rem;">Storico test</p>
+      <div id="storico-lista">
+        <p style="color:var(--muted); font-size:0.9rem;">Nessun test ancora.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:1.2rem; display:flex; gap:0.7rem; flex-direction:column;">
+      <a href="/" style="text-decoration:none;">
+        <button class="btn-primary">Nuovo test →</button>
+      </a>
+      <button class="btn-secondary" id="btn-reset" onclick="resetStorico()">Cancella storico</button>
+    </div>
+
+    <footer class="app-footer">Simulatore non ufficiale · uso didattico</footer>
+  </div>
+
+  <script>
+    const COLORI = {
+      biologia: '#2ecc71',
+      chimica:  '#c8a96e',
+      fisica:   '#3498db'
+    };
+
+    function resetStorico() {
+      if (confirm('Sei sicuro di voler cancellare tutto lo storico?')) {
+        localStorage.removeItem('quiz_storico');
+        location.reload();
+      }
+    }
+
+    function renderStatistiche() {
+      const storico = JSON.parse(localStorage.getItem('quiz_storico') || '[]');
+
+      if (storico.length === 0) return;
+
+      // Riepilogo globale
+      const media = Math.round(storico.reduce((s, t) => s + t.percentuale, 0) / storico.length);
+      const migliore = Math.max(...storico.map(t => t.percentuale));
+      document.getElementById('tot-test').textContent = storico.length;
+      document.getElementById('media-globale').textContent = media + '%';
+      document.getElementById('migliore').textContent = migliore + '%';
+
+      // Per materia
+      const materie = ['biologia', 'chimica', 'fisica'];
+      const perMateriaEl = document.getElementById('per-materia');
+      perMateriaEl.innerHTML = '';
+
+      materie.forEach(m => {
+        const tests = storico.filter(t => t.materia === m);
+        if (tests.length === 0) return;
+        const mediaM = Math.round(tests.reduce((s, t) => s + t.percentuale, 0) / tests.length);
+        const colore = COLORI[m] || '#888';
+
+        perMateriaEl.innerHTML += `
+          <div style="margin-bottom:1rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+              <span style="font-size:0.9rem; text-transform:capitalize; font-weight:500;">${m}</span>
+              <span style="font-size:0.9rem; color:var(--muted);">${mediaM}% · ${tests.length} test</span>
+            </div>
+            <div style="height:6px; background:var(--border2); border-radius:3px; overflow:hidden;">
+              <div style="height:100%; width:${mediaM}%; background:${colore}; border-radius:3px; transition:width 0.6s ease;"></div>
+            </div>
+          </div>`;
+      });
+
+      // Storico lista
+      const storicoEl = document.getElementById('storico-lista');
+      storicoEl.innerHTML = '';
+      storico.slice(0, 20).forEach((t, i) => {
+        const colore = t.percentuale >= 80 ? '#2ecc71' : t.percentuale >= 60 ? '#c8a96e' : '#e74c3c';
+        storicoEl.innerHTML += `
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:0.7rem 0; border-bottom:1px solid var(--border); ${i === 0 ? 'border-top:1px solid var(--border);' : ''}">
+            <div>
+              <span style="font-size:0.9rem; text-transform:capitalize; font-weight:500;">${t.materia}</span>
+              <span style="font-size:0.78rem; color:var(--muted); margin-left:0.5rem;">${t.livello} · ${t.data}</span>
+            </div>
+            <span style="font-size:1rem; font-weight:600; color:${colore};">${t.punteggio}/${t.totale}</span>
+          </div>`;
+      });
+    }
+
+    renderStatistiche();
+  </script>
+</body>
+</html>

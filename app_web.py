@@ -105,6 +105,9 @@ def risultato():
         materia     = materia,
         livello     = livello
     )
+@app.route("/statistiche")
+def statistiche():
+    return render_template("statistiche.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)

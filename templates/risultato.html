@@ -16,13 +16,11 @@
 
     <div class="card">
 
-      <!-- Cerchio punteggio -->
       <div class="score-circle">
         <span class="score-num">{{ punteggio }}</span>
         <span class="score-tot">su {{ totale }}</span>
       </div>
 
-      <!-- Messaggio dinamico -->
       {% if percentuale >= 80 %}
         <p class="result-message">🎯 Ottimo lavoro!</p>
         <p class="result-sub">Sei sulla strada giusta per superare il filtro.</p>
@@ -39,7 +37,6 @@
 
       <div class="divider"></div>
 
-      <!-- Griglia statistiche -->
       <div class="result-grid">
         <div class="result-stat">
           <div class="rs-val">{{ percentuale }}%</div>
@@ -59,24 +56,35 @@
         </div>
       </div>
 
-      <!-- Azioni -->
       <a href="/start-same" style="text-decoration:none;">
-        <button class="btn-primary" style="margin-bottom: 0.7rem;">
-          Riprova stesso test →
-        </button>
+        <button class="btn-primary" style="margin-bottom: 0.7rem;">Riprova stesso test →</button>
+      </a>
+      <a href="/statistiche" style="text-decoration:none;">
+        <button class="btn-secondary" style="margin-bottom: 0.7rem;">Vedi statistiche →</button>
       </a>
       <a href="/" style="text-decoration:none;">
-        <button class="btn-secondary">
-          Cambia materia / livello
-        </button>
+        <button class="btn-secondary">Cambia materia / livello</button>
       </a>
 
     </div>
 
-    <footer class="app-footer">
-      Simulatore non ufficiale · uso didattico
-    </footer>
-
+    <footer class="app-footer">Simulatore non ufficiale · uso didattico</footer>
   </div>
+
+  <script>
+    // Salva il risultato nel localStorage
+    const risultato = {
+      data: new Date().toLocaleDateString('it-IT'),
+      materia: "{{ materia }}",
+      livello: "{{ livello }}",
+      punteggio: {{ punteggio }},
+      totale: {{ totale }},
+      percentuale: {{ percentuale }}
+    };
+    const storico = JSON.parse(localStorage.getItem('quiz_storico') || '[]');
+    storico.unshift(risultato);
+    if (storico.length > 50) storico.pop(); // massimo 50 test salvati
+    localStorage.setItem('quiz_storico', JSON.stringify(storico));
+  </script>
 </body>
 </html>
