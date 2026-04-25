@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, session
-import json, random, os
+import json, random, os, copy
 
 app = Flask(__name__)
 app.secret_key = "test123"
@@ -10,7 +10,13 @@ with open(os.path.join(BASE_DIR, "domande.json"), "r", encoding="utf-8") as f:
 
 def genera_domande(materia, livello):
     pool = domande_db.get(materia, {}).get(livello, [])
-    return random.sample(pool, min(10, len(pool)))
+    campione = random.sample(pool, min(10, len(pool)))
+    result = []
+    for d in campione:
+        nd = copy.deepcopy(d)
+        random.shuffle(nd["opzioni"])  # mescola le opzioni, la "corretta" resta invariata
+        result.append(nd)
+    return result
 
 @app.route("/")
 def index():
@@ -37,11 +43,16 @@ def quiz_page():
         action = request.form.get("action")
 
         if action == "risposta":
-            scelta       = int(request.form["scelta"])
-            domanda      = session["domande"][session["indice"]]
-            corretta     = domanda["corretta"]
-            scelta_testo = domanda["opzioni"][scelta]
-            esatta       = scelta_testo == corretta
+            scelta  = int(request.form["scelta"])
+            domanda = session["domande"][session["indice"]]
+            corretta = domanda["corretta"]
+
+            if scelta == -1:
+                esatta = False
+                spiegazione = "⏱ Tempo scaduto! " + domanda.get("spiegazione", "")
+            else:
+                esatta = domanda["opzioni"][scelta] == corretta
+                spiegazione = domanda.get("spiegazione", "")
 
             if esatta:
                 session["punteggio"] += 1
@@ -50,7 +61,7 @@ def quiz_page():
                 "scelta":          scelta,
                 "corretta":        esatta,
                 "risposta_giusta": corretta,
-                "spiegazione":     domanda.get("spiegazione", "")
+                "spiegazione":     spiegazione
             }
             session.modified = True
             return redirect("/quiz")
@@ -105,6 +116,7 @@ def risultato():
         materia     = materia,
         livello     = livello
     )
+
 @app.route("/statistiche")
 def statistiche():
     return render_template("statistiche.html")
