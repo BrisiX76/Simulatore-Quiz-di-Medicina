@@ -562,3 +562,19 @@ body::after {
 .bg-el-3 { animation: float3 7s ease-in-out infinite; }
 .bg-el-4 { animation: float1 14s ease-in-out infinite reverse; }
 .bg-el-5 { animation: float2 10s ease-in-out infinite 2s; }
+
+/* ── SVG DOMANDE ── */
+.question-svg {
+  margin: 0.8rem 0 1.2rem;
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  overflow: hidden;
+  padding: 0.8rem;
+}
+
+.question-svg svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
