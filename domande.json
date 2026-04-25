@@ -1,0 +1,560 @@
+{
+  "fisica": {
+    "medio": [
+      {
+        "domanda": "Un corpo di massa 5 kg viene accelerato da una forza netta di 20 N. Qual è la sua accelerazione?",
+        "opzioni": ["2 m/s²", "4 m/s²", "10 m/s²"],
+        "corretta": "4 m/s²",
+        "spiegazione": "Dalla seconda legge di Newton: a = F/m = 20/5 = 4 m/s²."
+      },
+      {
+        "domanda": "Un oggetto viene lanciato verticalmente verso l'alto con velocità iniziale di 20 m/s. Quanto tempo impiega a raggiungere il punto più alto? (g = 10 m/s²)",
+        "opzioni": ["1 s", "2 s", "4 s"],
+        "corretta": "2 s",
+        "spiegazione": "Al punto più alto la velocità è zero. t = v₀/g = 20/10 = 2 s."
+      },
+      {
+        "domanda": "Qual è l'unità di misura della pressione nel Sistema Internazionale?",
+        "opzioni": ["Joule", "Pascal", "Newton"],
+        "corretta": "Pascal",
+        "spiegazione": "La pressione è forza per unità di area. 1 Pa = 1 N/m². Il Joule è unità di energia, il Newton di forza."
+      },
+      {
+        "domanda": "Un circuito ha una resistenza di 10 Ω collegata a una batteria da 20 V. Quale corrente scorre?",
+        "opzioni": ["0,5 A", "2 A", "200 A"],
+        "corretta": "2 A",
+        "spiegazione": "Dalla legge di Ohm: I = V/R = 20/10 = 2 A."
+      },
+      {
+        "domanda": "Un'onda sonora ha frequenza 440 Hz e velocità 340 m/s. Qual è la sua lunghezza d'onda?",
+        "opzioni": ["0,77 m", "1,29 m", "2,58 m"],
+        "corretta": "0,77 m",
+        "spiegazione": "λ = v/f = 340/440 ≈ 0,77 m."
+      },
+      {
+        "domanda": "Qual è il lavoro compiuto da una forza di 10 N che sposta un oggetto di 5 m nella direzione della forza?",
+        "opzioni": ["2 J", "15 J", "50 J"],
+        "corretta": "50 J",
+        "spiegazione": "Il lavoro è W = F × d = 10 × 5 = 50 J."
+      },
+      {
+        "domanda": "Un oggetto di massa 2 kg si trova a 10 m di altezza. Qual è la sua energia potenziale gravitazionale? (g = 10 m/s²)",
+        "opzioni": ["20 J", "100 J", "200 J"],
+        "corretta": "200 J",
+        "spiegazione": "Ep = mgh = 2 × 10 × 10 = 200 J."
+      },
+      {
+        "domanda": "Quale fenomeno descrive la deviazione della luce quando passa da un mezzo a un altro?",
+        "opzioni": ["Riflessione", "Rifrazione", "Diffrazione"],
+        "corretta": "Rifrazione",
+        "spiegazione": "La rifrazione è il cambiamento di direzione della luce quando cambia il mezzo di propagazione, a causa della variazione della velocità."
+      },
+      {
+        "domanda": "Qual è la velocità della luce nel vuoto?",
+        "opzioni": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s"],
+        "corretta": "3 × 10⁸ m/s",
+        "spiegazione": "La velocità della luce nel vuoto è c ≈ 3 × 10⁸ m/s, costante fondamentale della fisica."
+      },
+      {
+        "domanda": "Un corpo in caduta libera da fermo percorre quanti metri nei primi 3 secondi? (g = 10 m/s²)",
+        "opzioni": ["15 m", "30 m", "45 m"],
+        "corretta": "45 m",
+        "spiegazione": "s = ½gt² = ½ × 10 × 9 = 45 m."
+      },
+      {
+        "domanda": "Qual è l'unità di misura dell'energia nel SI?",
+        "opzioni": ["Watt", "Joule", "Newton"],
+        "corretta": "Joule",
+        "spiegazione": "L'energia si misura in Joule (J). Il Watt è la potenza, il Newton la forza."
+      },
+      {
+        "domanda": "Due cariche elettriche uguali si respingono. Di che tipo sono?",
+        "opzioni": ["Una positiva e una negativa", "Entrambe dello stesso segno", "Una neutra e una carica"],
+        "corretta": "Entrambe dello stesso segno",
+        "spiegazione": "La legge di Coulomb stabilisce che cariche dello stesso segno si respingono, cariche di segno opposto si attraggono."
+      },
+      {
+        "domanda": "La potenza è definita come:",
+        "opzioni": ["Forza per velocità", "Lavoro per tempo", "Lavoro diviso tempo"],
+        "corretta": "Lavoro diviso tempo",
+        "spiegazione": "P = W/t. La potenza è il lavoro compiuto nell'unità di tempo, misurata in Watt (W = J/s)."
+      },
+      {
+        "domanda": "In un moto uniformemente accelerato, la velocità:",
+        "opzioni": ["Rimane costante", "Aumenta o diminuisce a ritmo costante", "Aumenta in modo esponenziale"],
+        "corretta": "Aumenta o diminuisce a ritmo costante",
+        "spiegazione": "Nel moto uniformemente accelerato l'accelerazione è costante, quindi la velocità varia linearmente nel tempo: v = v₀ + at."
+      },
+      {
+        "domanda": "Qual è la frequenza di un'onda che ha periodo T = 0,01 s?",
+        "opzioni": ["10 Hz", "100 Hz", "1000 Hz"],
+        "corretta": "100 Hz",
+        "spiegazione": "f = 1/T = 1/0,01 = 100 Hz."
+      }
+    ],
+    "difficile": [
+      {
+        "domanda": "Un gas ideale viene compresso isotermicamente dimezzando il suo volume. Come varia la pressione?",
+        "opzioni": ["Rimane invariata", "Raddoppia", "Si dimezza"],
+        "corretta": "Raddoppia",
+        "spiegazione": "In una trasformazione isotermica vale la legge di Boyle: P₁V₁ = P₂V₂. Se V₂ = V₁/2, allora P₂ = 2P₁."
+      },
+      {
+        "domanda": "Un proiettile di massa 10 g viene sparato a 300 m/s e si conficca in un blocco di 2 kg inizialmente fermo. Qual è la velocità finale del sistema?",
+        "opzioni": ["1,49 m/s", "3,00 m/s", "0,15 m/s"],
+        "corretta": "1,49 m/s",
+        "spiegazione": "Conservazione della quantità di moto: m₁v₁ = (m₁+m₂)v_f. v_f = (0,01×300)/(0,01+2) = 3/2,01 ≈ 1,49 m/s."
+      },
+      {
+        "domanda": "Quale grandezza fisica si conserva in una collisione perfettamente anelastica ma NON in una elastica?",
+        "opzioni": ["La quantità di moto totale", "L'energia cinetica totale", "Nessuna delle due si conserva"],
+        "corretta": "L'energia cinetica totale",
+        "spiegazione": "In una collisione anelastica la quantità di moto si conserva, ma l'energia cinetica no — viene parzialmente convertita in calore o deformazione."
+      },
+      {
+        "domanda": "Un condensatore piano ha capacità C. Se si raddoppia la distanza tra le armature (a vuoto), come varia la capacità?",
+        "opzioni": ["Raddoppia", "Si dimezza", "Rimane invariata"],
+        "corretta": "Si dimezza",
+        "spiegazione": "C = ε₀·A/d. Se d raddoppia, C si dimezza. La capacità è inversamente proporzionale alla distanza tra le armature."
+      },
+      {
+        "domanda": "Un corpo in moto circolare uniforme ha velocità tangenziale v e raggio r. Qual è l'espressione dell'accelerazione centripeta?",
+        "opzioni": ["v·r", "v²/r", "v/r²"],
+        "corretta": "v²/r",
+        "spiegazione": "L'accelerazione centripeta è diretta verso il centro e vale a_c = v²/r."
+      },
+      {
+        "domanda": "In una trasformazione adiabatica di un gas ideale, quale grandezza rimane costante?",
+        "opzioni": ["La temperatura", "La pressione", "Il calore scambiato (Q = 0)"],
+        "corretta": "Il calore scambiato (Q = 0)",
+        "spiegazione": "In una trasformazione adiabatica non c'è scambio di calore con l'esterno. Dal primo principio: ΔU = -W."
+      },
+      {
+        "domanda": "Qual è l'effetto di raddoppiare la distanza tra due cariche sulla forza di Coulomb?",
+        "opzioni": ["La forza si dimezza", "La forza si riduce a un quarto", "La forza si riduce a un ottavo"],
+        "corretta": "La forza si riduce a un quarto",
+        "spiegazione": "F = kq₁q₂/r². Se r raddoppia, r² quadruplica, quindi F diventa F/4."
+      },
+      {
+        "domanda": "Un'onda elettromagnetica ha lunghezza d'onda di 500 nm. A quale colore corrisponde?",
+        "opzioni": ["Rosso", "Verde", "Violetto"],
+        "corretta": "Verde",
+        "spiegazione": "Il verde occupa la regione 495–570 nm dello spettro visibile. Il rosso è intorno a 620–750 nm, il violetto a 380–450 nm."
+      },
+      {
+        "domanda": "Quale principio afferma che è impossibile realizzare una macchina termica con rendimento del 100%?",
+        "opzioni": ["Primo principio della termodinamica", "Secondo principio della termodinamica", "Legge di Boyle"],
+        "corretta": "Secondo principio della termodinamica",
+        "spiegazione": "Il secondo principio impone che ogni macchina termica ceda parte del calore alla sorgente fredda, rendendo impossibile il rendimento unitario."
+      },
+      {
+        "domanda": "In un circuito RLC in risonanza, quale relazione vale tra la reattanza induttiva XL e quella capacitiva XC?",
+        "opzioni": ["XL > XC", "XL = XC", "XL < XC"],
+        "corretta": "XL = XC",
+        "spiegazione": "Alla frequenza di risonanza ω₀ = 1/√(LC), le reattanze si annullano a vicenda: XL = XC = ωL = 1/(ωC). L'impedenza è minima e uguale a R."
+      },
+      {
+        "domanda": "Un satellite orbita a distanza r dal centro della Terra. Se r raddoppia, il periodo orbitale T:",
+        "opzioni": ["Raddoppia", "Aumenta di un fattore 2√2", "Quadruplica"],
+        "corretta": "Aumenta di un fattore 2√2",
+        "spiegazione": "Dalla terza legge di Keplero: T² ∝ r³. Se r → 2r, T² → 8T², quindi T → T·2√2 ≈ 2,83 T."
+      },
+      {
+        "domanda": "L'effetto fotoelettrico dimostra che la luce:",
+        "opzioni": ["Si comporta come un'onda", "È costituita da fotoni con energia E = hf", "Viaggia a velocità variabile"],
+        "corretta": "È costituita da fotoni con energia E = hf",
+        "spiegazione": "Einstein spiegò l'effetto fotoelettrico postulando che la luce è quantizzata in fotoni di energia E = hf, dove h è la costante di Planck."
+      },
+      {
+        "domanda": "Qual è la dimensione fisica dell'entropia?",
+        "opzioni": ["J/K", "J·K", "J/K²"],
+        "corretta": "J/K",
+        "spiegazione": "L'entropia S è definita da dS = δQ_rev/T. Le sue unità sono quindi Joule/Kelvin (J/K)."
+      },
+      {
+        "domanda": "In ottica geometrica, quale legge descrive la riflessione della luce?",
+        "opzioni": ["L'angolo di incidenza è uguale all'angolo di rifrazione", "L'angolo di incidenza è uguale all'angolo di riflessione", "L'angolo di rifrazione dipende dalla frequenza"],
+        "corretta": "L'angolo di incidenza è uguale all'angolo di riflessione",
+        "spiegazione": "La legge della riflessione afferma che θᵢ = θᵣ, entrambi misurati rispetto alla normale alla superficie nel punto di incidenza."
+      },
+      {
+        "domanda": "Quale quantità si conserva in un sistema isolato secondo la legge di conservazione della quantità di moto?",
+        "opzioni": ["L'energia cinetica", "La quantità di moto totale", "La velocità di ogni corpo"],
+        "corretta": "La quantità di moto totale",
+        "spiegazione": "In assenza di forze esterne nette, la quantità di moto totale del sistema rimane costante: Σp = costante."
+      }
+    ]
+  },
+  "biologia": {
+    "medio": [
+      {
+        "domanda": "Quale organello cellulare è responsabile della sintesi proteica?",
+        "opzioni": ["Mitocondrio", "Ribosoma", "Apparato di Golgi"],
+        "corretta": "Ribosoma",
+        "spiegazione": "I ribosomi sono il sito della traduzione: leggono l'mRNA e assemblano le proteine."
+      },
+      {
+        "domanda": "Quante coppie di cromosomi omologhi possiede una cellula somatica umana?",
+        "opzioni": ["23", "46", "22"],
+        "corretta": "23",
+        "spiegazione": "Le cellule somatiche umane sono diploidi (2n = 46) e contengono 23 coppie di cromosomi omologhi."
+      },
+      {
+        "domanda": "Quale molecola funge da 'moneta energetica' della cellula?",
+        "opzioni": ["DNA", "ATP", "NADH"],
+        "corretta": "ATP",
+        "spiegazione": "L'ATP (adenosina trifosfato) è la principale forma di energia chimica utilizzabile dalla cellula."
+      },
+      {
+        "domanda": "La meiosi produce cellule con quale corredo cromosomico?",
+        "opzioni": ["Diploide (2n)", "Aploide (n)", "Tetraploide (4n)"],
+        "corretta": "Aploide (n)",
+        "spiegazione": "La meiosi è una divisione riduzionale che porta da una cellula diploide (2n=46) a quattro cellule aploidi (n=23)."
+      },
+      {
+        "domanda": "Quale tipo di tessuto riveste le superfici interne ed esterne del corpo umano?",
+        "opzioni": ["Tessuto connettivo", "Tessuto epiteliale", "Tessuto muscolare"],
+        "corretta": "Tessuto epiteliale",
+        "spiegazione": "Il tessuto epiteliale forma rivestimenti e ghiandole. Il connettivo ha funzione di supporto; il muscolare è deputato alla contrazione."
+      },
+      {
+        "domanda": "Dove avviene la fotosintesi nelle cellule vegetali?",
+        "opzioni": ["Mitocondri", "Cloroplasti", "Nucleo"],
+        "corretta": "Cloroplasti",
+        "spiegazione": "I cloroplasti contengono la clorofilla e sono la sede della fotosintesi, dove l'energia luminosa viene convertita in energia chimica."
+      },
+      {
+        "domanda": "Qual è la funzione principale dei globuli rossi?",
+        "opzioni": ["Difesa immunitaria", "Trasporto di ossigeno", "Coagulazione del sangue"],
+        "corretta": "Trasporto di ossigeno",
+        "spiegazione": "I globuli rossi (eritrociti) contengono emoglobina, che lega l'ossigeno nei polmoni e lo trasporta ai tessuti."
+      },
+      {
+        "domanda": "Quale organo produce l'insulina?",
+        "opzioni": ["Fegato", "Pancreas", "Surrene"],
+        "corretta": "Pancreas",
+        "spiegazione": "L'insulina è prodotta dalle cellule β delle isole di Langerhans nel pancreas. Regola la glicemia favorendo l'assorbimento del glucosio."
+      },
+      {
+        "domanda": "Il DNA è composto da quattro basi azotate. Quale delle seguenti NON è una base del DNA?",
+        "opzioni": ["Adenina", "Uracile", "Citosina"],
+        "corretta": "Uracile",
+        "spiegazione": "Le basi del DNA sono Adenina, Timina, Guanina e Citosina. L'Uracile è presente nell'RNA al posto della Timina."
+      },
+      {
+        "domanda": "Quale processo cellulare utilizza ossigeno per produrre ATP?",
+        "opzioni": ["Fermentazione lattica", "Respirazione cellulare aerobica", "Glicolisi anaerobica"],
+        "corretta": "Respirazione cellulare aerobica",
+        "spiegazione": "La respirazione aerobica avviene nei mitocondri e utilizza ossigeno per ossidare il glucosio, producendo fino a 36-38 ATP."
+      },
+      {
+        "domanda": "Come si chiama il processo mediante cui le cellule inglobano particelle solide?",
+        "opzioni": ["Endocitosi", "Fagocitosi", "Pinocitosi"],
+        "corretta": "Fagocitosi",
+        "spiegazione": "La fagocitosi è il processo mediante cui la cellula inglobano particelle solide o microorganismi formando un fagosoma."
+      },
+      {
+        "domanda": "Quale struttura cellulare controlla gli scambi tra la cellula e l'ambiente esterno?",
+        "opzioni": ["Parete cellulare", "Membrana plasmatica", "Nucleo"],
+        "corretta": "Membrana plasmatica",
+        "spiegazione": "La membrana plasmatica è una struttura semipermeabile che regola selettivamente il passaggio di sostanze dentro e fuori la cellula."
+      },
+      {
+        "domanda": "Quale fase della mitosi vede la separazione dei cromatidi fratelli verso i poli opposti?",
+        "opzioni": ["Profase", "Metafase", "Anafase"],
+        "corretta": "Anafase",
+        "spiegazione": "Nell'anafase i cromatidi fratelli vengono separati e trascinati verso i poli opposti della cellula dal fuso mitotico."
+      },
+      {
+        "domanda": "Qual è la funzione dell'apparato di Golgi?",
+        "opzioni": ["Sintesi proteica", "Modificazione e smistamento di proteine e lipidi", "Produzione di ATP"],
+        "corretta": "Modificazione e smistamento di proteine e lipidi",
+        "spiegazione": "L'apparato di Golgi riceve le proteine dal reticolo endoplasmatico, le modifica (es. glicosilazione) e le smista verso la destinazione finale."
+      },
+      {
+        "domanda": "Come si chiama il doppio strato fosfolipidico che costituisce le membrane cellulari?",
+        "opzioni": ["Doppio strato lipidico", "Bilayer fosfolipidico", "Entrambe le risposte sono corrette"],
+        "corretta": "Entrambe le risposte sono corrette",
+        "spiegazione": "Sia 'doppio strato lipidico' che 'bilayer fosfolipidico' indicano la stessa struttura: due strati di fosfolipidi con le teste idrofile verso l'esterno."
+      }
+    ],
+    "difficile": [
+      {
+        "domanda": "Durante la replicazione del DNA, quale enzima sintetizza il nuovo filamento complementare?",
+        "opzioni": ["DNA ligasi", "DNA polimerasi III", "Elicasi"],
+        "corretta": "DNA polimerasi III",
+        "spiegazione": "La DNA polimerasi III è l'enzima principale della replicazione nei procarioti: aggiunge nucleotidi in direzione 5'→3'."
+      },
+      {
+        "domanda": "In un incrocio tra due individui eterozigoti Aa, quale percentuale di discendenti sarà omozigote dominante (AA)?",
+        "opzioni": ["25%", "50%", "75%"],
+        "corretta": "25%",
+        "spiegazione": "Aa × Aa produce: 1 AA : 2 Aa : 1 aa. Gli omozigoti dominanti AA rappresentano il 25% (1/4) della discendenza."
+      },
+      {
+        "domanda": "Quale fase della respirazione cellulare produce il maggior numero di molecole di ATP?",
+        "opzioni": ["Glicolisi", "Ciclo di Krebs", "Catena di trasporto degli elettroni"],
+        "corretta": "Catena di trasporto degli elettroni",
+        "spiegazione": "La catena di trasporto degli elettroni produce circa 32–34 ATP per molecola di glucosio, contro i 2 ATP della glicolisi e i 2 del ciclo di Krebs."
+      },
+      {
+        "domanda": "Qual è la funzione principale delle cellule T citotossiche (CD8+)?",
+        "opzioni": ["Produrre anticorpi", "Eliminare le cellule infette o tumorali", "Attivare i linfociti B"],
+        "corretta": "Eliminare le cellule infette o tumorali",
+        "spiegazione": "I linfociti T CD8+ riconoscono antigeni presentati dall'MHC di classe I e inducono l'apoptosi delle cellule bersaglio."
+      },
+      {
+        "domanda": "Cosa si intende per 'splicing' dell'RNA messaggero?",
+        "opzioni": ["La trascrizione del DNA in RNA", "La rimozione degli introni e giunzione degli esoni", "La traduzione dell'mRNA in proteina"],
+        "corretta": "La rimozione degli introni e giunzione degli esoni",
+        "spiegazione": "Lo splicing è una fase del processamento del pre-mRNA: le sequenze non codificanti (introni) vengono escisse e le sequenze codificanti (esoni) vengono unite."
+      },
+      {
+        "domanda": "Qual è il ruolo del complesso MHC di classe II nella risposta immunitaria?",
+        "opzioni": ["Presentare antigeni alle cellule T CD8+", "Presentare antigeni alle cellule T CD4+", "Produrre anticorpi"],
+        "corretta": "Presentare antigeni alle cellule T CD4+",
+        "spiegazione": "L'MHC II è espresso sulle cellule presentanti l'antigene (APC) e presenta frammenti peptidici alle cellule T helper (CD4+), attivando la risposta immunitaria adattiva."
+      },
+      {
+        "domanda": "In quale fase della meiosi avviene il crossing-over?",
+        "opzioni": ["Profase I", "Metafase II", "Anafase I"],
+        "corretta": "Profase I",
+        "spiegazione": "Il crossing-over avviene durante la profase I della meiosi, specificamente nello stadio del pachitene, quando i cromosomi omologhi sono appaiati in tetravalenti."
+      },
+      {
+        "domanda": "Quale enzima catalizza la trascrizione del DNA in RNA?",
+        "opzioni": ["DNA polimerasi", "RNA polimerasi", "Trascrittasi inversa"],
+        "corretta": "RNA polimerasi",
+        "spiegazione": "L'RNA polimerasi legge il filamento stampo del DNA in direzione 3'→5' e sintetizza il filamento di mRNA complementare in direzione 5'→3'."
+      },
+      {
+        "domanda": "Cosa si intende per 'apoptosi'?",
+        "opzioni": ["Divisione cellulare", "Morte cellulare programmata", "Fusione di due cellule"],
+        "corretta": "Morte cellulare programmata",
+        "spiegazione": "L'apoptosi è un processo di morte cellulare controllata e programmata, fondamentale per lo sviluppo embrionale e la difesa contro cellule danneggiate o infette."
+      },
+      {
+        "domanda": "Quale struttura del neurone riceve i segnali in ingresso?",
+        "opzioni": ["Assone", "Dendriti", "Guaina mielinica"],
+        "corretta": "Dendriti",
+        "spiegazione": "I dendriti sono le ramificazioni del neurone che ricevono i segnali chimici dalle sinapsi di altri neuroni e li trasmettono al corpo cellulare."
+      },
+      {
+        "domanda": "Qual è il prodotto finale della glicolisi (per molecola di glucosio)?",
+        "opzioni": ["2 molecole di piruvato + 2 ATP + 2 NADH", "4 molecole di piruvato + 4 ATP", "1 molecola di acetil-CoA + 2 ATP"],
+        "corretta": "2 molecole di piruvato + 2 ATP + 2 NADH",
+        "spiegazione": "La glicolisi scinde il glucosio (6C) in 2 molecole di piruvato (3C), producendo un guadagno netto di 2 ATP e 2 NADH."
+      },
+      {
+        "domanda": "Come si chiama la struttura tridimensionale delle proteine stabilizzata da ponti disolfuro e interazioni idrofobiche?",
+        "opzioni": ["Struttura primaria", "Struttura terziaria", "Struttura secondaria"],
+        "corretta": "Struttura terziaria",
+        "spiegazione": "La struttura terziaria è il ripiegamento tridimensionale complessivo di una catena polipeptidica, stabilizzata da interazioni idrofobiche, ponti disolfuro, legami idrogeno e forze ioniche."
+      },
+      {
+        "domanda": "Quale molecola funge da accettore finale di elettroni nella catena di trasporto mitocondriale?",
+        "opzioni": ["NAD+", "Ossigeno molecolare (O₂)", "FAD"],
+        "corretta": "Ossigeno molecolare (O₂)",
+        "spiegazione": "L'O₂ è l'accettore finale degli elettroni nella catena respiratoria. Viene ridotto ad acqua: O₂ + 4H⁺ + 4e⁻ → 2H₂O."
+      },
+      {
+        "domanda": "Qual è il meccanismo molecolare alla base della contrazione muscolare?",
+        "opzioni": ["Scorrimento dei filamenti di actina e miosina", "Accorciamento delle fibre di collagene", "Contrazione delle membrane sarcoplasmatiche"],
+        "corretta": "Scorrimento dei filamenti di actina e miosina",
+        "spiegazione": "Secondo il modello dello scorrimento dei filamenti, la miosina forma ponti trasversali con l'actina e, usando ATP, tira i filamenti sottili verso il centro del sarcomero."
+      },
+      {
+        "domanda": "Quale tipo di RNA porta le informazioni genetiche dal nucleo ai ribosomi?",
+        "opzioni": ["tRNA", "rRNA", "mRNA"],
+        "corretta": "mRNA",
+        "spiegazione": "L'mRNA (RNA messaggero) è trascritto dal DNA nel nucleo ed esportato nel citoplasma, dove viene tradotto dai ribosomi in proteine."
+      }
+    ]
+  },
+  "chimica": {
+    "medio": [
+      {
+        "domanda": "Quale legge afferma che, a temperatura costante, il volume di un gas è inversamente proporzionale alla pressione?",
+        "opzioni": ["Legge di Charles", "Legge di Boyle", "Legge di Gay-Lussac"],
+        "corretta": "Legge di Boyle",
+        "spiegazione": "La legge di Boyle (trasformazione isotermica) afferma che P·V = costante."
+      },
+      {
+        "domanda": "Qual è il pH di una soluzione con concentrazione di ioni H⁺ pari a 10⁻⁹ mol/L?",
+        "opzioni": ["5", "7", "9"],
+        "corretta": "9",
+        "spiegazione": "pH = -log[H⁺] = -log(10⁻⁹) = 9. Una soluzione con pH > 7 è basica."
+      },
+      {
+        "domanda": "In quale gruppo della tavola periodica si trovano i gas nobili?",
+        "opzioni": ["Gruppo 1", "Gruppo 17", "Gruppo 18"],
+        "corretta": "Gruppo 18",
+        "spiegazione": "I gas nobili (He, Ne, Ar, Kr, Xe, Rn) si trovano nel gruppo 18, con configurazione elettronica esterna ns²np⁶ (eccetto He: 1s²)."
+      },
+      {
+        "domanda": "Quale tipo di reazione avviene quando un acido reagisce con una base per formare sale e acqua?",
+        "opzioni": ["Ossidoriduzione", "Neutralizzazione", "Combustione"],
+        "corretta": "Neutralizzazione",
+        "spiegazione": "La reazione di neutralizzazione è: acido + base → sale + acqua. Ad esempio: HCl + NaOH → NaCl + H₂O."
+      },
+      {
+        "domanda": "Quanti elettroni contiene il secondo livello energetico (n=2) quando è completo?",
+        "opzioni": ["2", "8", "18"],
+        "corretta": "8",
+        "spiegazione": "Il secondo livello energetico comprende i sottolivelli 2s (max 2e⁻) e 2p (max 6e⁻), per un totale di 8 elettroni."
+      },
+      {
+        "domanda": "Qual è la formula chimica dell'acqua?",
+        "opzioni": ["HO", "H₂O", "H₂O₂"],
+        "corretta": "H₂O",
+        "spiegazione": "L'acqua è composta da 2 atomi di idrogeno e 1 di ossigeno legati da legami covalenti polari, con formula H₂O."
+      },
+      {
+        "domanda": "Cosa si intende per numero atomico di un elemento?",
+        "opzioni": ["Il numero di neutroni nel nucleo", "Il numero di protoni nel nucleo", "La massa atomica in grammi"],
+        "corretta": "Il numero di protoni nel nucleo",
+        "spiegazione": "Il numero atomico (Z) è il numero di protoni nel nucleo e determina l'identità dell'elemento nella tavola periodica."
+      },
+      {
+        "domanda": "Quale tipo di legame si forma tra atomi con grande differenza di elettronegatività?",
+        "opzioni": ["Legame covalente apolare", "Legame ionico", "Legame metallico"],
+        "corretta": "Legame ionico",
+        "spiegazione": "Il legame ionico si forma quando un atomo cede elettroni a un altro (differenza di elettronegatività > 1,7), formando ioni di carica opposta che si attraggono."
+      },
+      {
+        "domanda": "Qual è il simbolo chimico del sodio?",
+        "opzioni": ["So", "Sd", "Na"],
+        "corretta": "Na",
+        "spiegazione": "Il sodio ha simbolo Na, dal latino Natrium. È un metallo alcalino del gruppo 1 con numero atomico 11."
+      },
+      {
+        "domanda": "In una reazione chimica bilanciata, cosa si conserva sempre?",
+        "opzioni": ["Il numero di molecole", "Il numero di atomi di ogni elemento", "Il volume dei gas"],
+        "corretta": "Il numero di atomi di ogni elemento",
+        "spiegazione": "La legge di conservazione della massa afferma che in una reazione chimica il numero di atomi di ogni elemento si conserva — la materia non si crea né si distrugge."
+      },
+      {
+        "domanda": "Quale proprietà delle soluzioni indica la concentrazione di soluto per litro di soluzione?",
+        "opzioni": ["Molarità", "Molalità", "Normalità"],
+        "corretta": "Molarità",
+        "spiegazione": "La molarità (M) è il numero di moli di soluto per litro di soluzione: M = n/V. È la misura di concentrazione più usata in chimica."
+      },
+      {
+        "domanda": "Come si chiama la tabella che organizza gli elementi chimici per numero atomico crescente?",
+        "opzioni": ["Tavola di Mendeleev", "Tavola periodica", "Entrambe le risposte sono corrette"],
+        "corretta": "Entrambe le risposte sono corrette",
+        "spiegazione": "La tavola periodica fu ideata da Mendeleev nel 1869. Oggi è organizzata per numero atomico crescente e raggruppa gli elementi con proprietà simili."
+      },
+      {
+        "domanda": "Qual è il prodotto della combustione completa di un idrocarburo?",
+        "opzioni": ["CO + H₂", "CO₂ + H₂O", "C + H₂O"],
+        "corretta": "CO₂ + H₂O",
+        "spiegazione": "Nella combustione completa un idrocarburo (CₓHᵧ) reagisce con O₂ producendo CO₂ e H₂O. Es: CH₄ + 2O₂ → CO₂ + 2H₂O."
+      },
+      {
+        "domanda": "Quale particella subatomica ha carica negativa?",
+        "opzioni": ["Protone", "Neutrone", "Elettrone"],
+        "corretta": "Elettrone",
+        "spiegazione": "L'elettrone ha carica -1 (−1,6 × 10⁻¹⁹ C). Il protone ha carica +1, il neutrone è privo di carica."
+      },
+      {
+        "domanda": "Cos'è un isotopo?",
+        "opzioni": ["Un elemento con diverso numero atomico", "Un atomo dello stesso elemento con diverso numero di neutroni", "Un composto con la stessa formula ma struttura diversa"],
+        "corretta": "Un atomo dello stesso elemento con diverso numero di neutroni",
+        "spiegazione": "Gli isotopi sono atomi dello stesso elemento (stesso Z) ma con diverso numero di neutroni, e quindi diversa massa atomica. Es: ¹²C e ¹⁴C."
+      }
+    ],
+    "difficile": [
+      {
+        "domanda": "Quale principio stabilisce che due elettroni nello stesso orbitale devono avere spin opposti?",
+        "opzioni": ["Principio di Aufbau", "Principio di esclusione di Pauli", "Regola di Hund"],
+        "corretta": "Principio di esclusione di Pauli",
+        "spiegazione": "Il principio di Pauli afferma che nessun elettrone in un atomo può avere tutti e quattro i numeri quantici uguali. Due elettroni nello stesso orbitale devono avere spin opposti."
+      },
+      {
+        "domanda": "In una reazione redox, lo ione Fe³⁺ acquista un elettrone e diventa Fe²⁺. Fe³⁺ si comporta da:",
+        "opzioni": ["Agente riducente", "Agente ossidante", "Acido di Lewis"],
+        "corretta": "Agente ossidante",
+        "spiegazione": "Fe³⁺ acquista elettroni (si riduce), quindi è l'agente ossidante. L'agente ossidante si riduce; l'agente riducente si ossida cedendo elettroni."
+      },
+      {
+        "domanda": "Qual è il prodotto principale della reazione tra etilene (CH₂=CH₂) e bromo (Br₂) in soluzione?",
+        "opzioni": ["Bromoetano (CH₃CH₂Br)", "1,2-dibromoetano (BrCH₂CH₂Br)", "Butano (C₄H₁₀)"],
+        "corretta": "1,2-dibromoetano (BrCH₂CH₂Br)",
+        "spiegazione": "L'etilene subisce una reazione di addizione elettrofila con Br₂: il doppio legame C=C si apre e ogni carbonio acquisisce un atomo di bromo."
+      },
+      {
+        "domanda": "Secondo la costante di equilibrio Keq, cosa indica un valore di Keq >> 1 per una reazione?",
+        "opzioni": ["La reazione favorisce i reagenti", "La reazione favorisce i prodotti", "La reazione è a metà del percorso"],
+        "corretta": "La reazione favorisce i prodotti",
+        "spiegazione": "Keq = [prodotti]/[reagenti]. Un valore molto maggiore di 1 indica che all'equilibrio la concentrazione dei prodotti è molto superiore a quella dei reagenti."
+      },
+      {
+        "domanda": "Quale ibridazione ha il carbonio nel benzene (C₆H₆)?",
+        "opzioni": ["sp³", "sp²", "sp"],
+        "corretta": "sp²",
+        "spiegazione": "Nel benzene ogni atomo di carbonio è ibridato sp²: forma tre legami σ, mentre l'orbitale p puro contribuisce al sistema π delocalizzato aromatico."
+      },
+      {
+        "domanda": "Cosa afferma il principio di Le Chatelier?",
+        "opzioni": ["Un sistema all'equilibrio, perturbato, si sposta per minimizzare la perturbazione", "La velocità di reazione raddoppia ogni 10°C", "L'energia si conserva nelle reazioni chimiche"],
+        "corretta": "Un sistema all'equilibrio, perturbato, si sposta per minimizzare la perturbazione",
+        "spiegazione": "Il principio di Le Chatelier afferma che se un sistema in equilibrio viene perturbato (variazione di concentrazione, pressione, temperatura), si sposta nella direzione che tende a ripristinare l'equilibrio."
+      },
+      {
+        "domanda": "Quale legame è responsabile della struttura a doppia elica del DNA?",
+        "opzioni": ["Legami covalenti tra le basi", "Legami idrogeno tra le basi complementari", "Legami ionici tra i fosfati"],
+        "corretta": "Legami idrogeno tra le basi complementari",
+        "spiegazione": "I due filamenti del DNA sono tenuti insieme da legami idrogeno tra coppie di basi complementari: A-T (2 legami H) e G-C (3 legami H)."
+      },
+      {
+        "domanda": "Qual è la differenza tra una reazione esotermica e una endotermica?",
+        "opzioni": ["L'esotermica assorbe calore, l'endotermica lo rilascia", "L'esotermica rilascia calore (ΔH < 0), l'endotermica lo assorbe (ΔH > 0)", "Non c'è differenza, dipende solo dalla pressione"],
+        "corretta": "L'esotermica rilascia calore (ΔH < 0), l'endotermica lo assorbe (ΔH > 0)",
+        "spiegazione": "Nelle reazioni esotermiche l'entalpia dei prodotti è minore di quella dei reagenti (ΔH < 0) e il calore viene ceduto all'ambiente. Nelle endotermiche è il contrario."
+      },
+      {
+        "domanda": "Quale tipo di isomeria si ha quando due composti hanno la stessa formula molecolare ma disposizione diversa degli atomi nello spazio?",
+        "opzioni": ["Isomeria di struttura", "Stereoisomeria", "Isomeria di catena"],
+        "corretta": "Stereoisomeria",
+        "spiegazione": "Gli stereoisomeri hanno la stessa formula molecolare e la stessa sequenza di legami, ma differente disposizione spaziale degli atomi. Include enantiomeri e diastereoisomeri."
+      },
+      {
+        "domanda": "Cosa rappresenta il pKa di un acido?",
+        "opzioni": ["Il pH a cui la soluzione è neutra", "Il pH a cui metà dell'acido è dissociato", "La concentrazione dell'acido alla dissociazione completa"],
+        "corretta": "Il pH a cui metà dell'acido è dissociato",
+        "spiegazione": "Il pKa = -log(Ka). Quando pH = pKa, le concentrazioni di acido e base coniugata sono uguali: [HA] = [A⁻]. È utile per calcolare tamponi con l'equazione di Henderson-Hasselbalch."
+      },
+      {
+        "domanda": "In chimica organica, come si chiama la reazione in cui un gruppo -OH viene sostituito da un alogeno?",
+        "opzioni": ["Sostituzione nucleofila", "Eliminazione", "Sostituzione elettrofila"],
+        "corretta": "Sostituzione nucleofila",
+        "spiegazione": "La conversione di un alcol in alogenuro alchilico avviene tramite sostituzione nucleofila (SN1 o SN2), in cui il nucleofilo (X⁻) sostituisce il gruppo uscente (-OH)."
+      },
+      {
+        "domanda": "Qual è la configurazione elettronica dell'atomo di ferro (Fe, Z=26)?",
+        "opzioni": ["[Ar] 3d⁶ 4s²", "[Ar] 3d⁸", "[Ne] 3s² 3p⁶ 3d⁶"],
+        "corretta": "[Ar] 3d⁶ 4s²",
+        "spiegazione": "Il ferro (Z=26) ha configurazione [Ar] 3d⁶ 4s². Il sottolivello 4s si riempie prima del 3d (regola di Aufbau), ma il 3d ha energia minore negli ioni."
+      },
+      {
+        "domanda": "Cosa si intende per 'entalpia di formazione standard' di un composto?",
+        "opzioni": ["Il calore assorbito quando il composto si decompone", "Il calore rilasciato o assorbito nella formazione di 1 mole di composto dagli elementi nei loro stati standard", "L'energia di legame media del composto"],
+        "corretta": "Il calore rilasciato o assorbito nella formazione di 1 mole di composto dagli elementi nei loro stati standard",
+        "spiegazione": "ΔH°f è la variazione di entalpia quando 1 mole di composto si forma dagli elementi nei loro stati standard a 298 K e 1 atm. Per convenzione ΔH°f degli elementi puri = 0."
+      },
+      {
+        "domanda": "In elettrochimica, in quale semielemento avviene l'ossidazione?",
+        "opzioni": ["Al catodo", "All'anodo", "In entrambi contemporaneamente"],
+        "corretta": "All'anodo",
+        "spiegazione": "All'anodo avviene l'ossidazione (perdita di elettroni); al catodo avviene la riduzione (acquisto di elettroni). Mnemonico: An-Ox, Red-Cat."
+      },
+      {
+        "domanda": "Cosa descrive la legge di Hess?",
+        "opzioni": ["La velocità di una reazione dipende dalla temperatura", "L'entalpia di una reazione è indipendente dal percorso seguito", "Il pH di una soluzione tampone dipende dal rapporto acido/base"],
+        "corretta": "L'entalpia di una reazione è indipendente dal percorso seguito",
+        "spiegazione": "La legge di Hess afferma che la variazione di entalpia totale di una reazione è la stessa indipendentemente dal percorso, poiché H è una funzione di stato."
+      }
+    ]
+  }
+}

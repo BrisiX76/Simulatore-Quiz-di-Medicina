@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz · Domanda {{ indice }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <div class="quiz-meta">
+      <span>Domanda <span class="q-num">{{ indice }}</span> di {{ totale }}</span>
+      <a href="/" style="color: var(--muted); text-decoration: none; font-size: 0.82rem;">← Esci</a>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: {{ (indice / totale * 100) | round }}%"></div>
+    </div>
+
+    <div class="card">
+
+      <p class="question-text">{{ domanda.domanda }}</p>
+
+      {% if feedback is none %}
+      <form method="post" action="/quiz">
+        <input type="hidden" name="action" value="risposta">
+        <ul class="options-list">
+          {% for op in domanda.opzioni %}
+          <li>
+            <button type="submit" name="scelta" value="{{ loop.index0 }}" class="btn-option">
+              <span class="opt-letter">{{ lettere[loop.index0] }}</span>
+              {{ op }}
+            </button>
+          </li>
+          {% endfor %}
+        </ul>
+      </form>
+
+      {% else %}
+      <ul class="options-list">
+        {% for op in domanda.opzioni %}
+          {% set i = loop.index0 %}
+          {% if op == feedback.risposta_giusta %}
+            <li>
+              <button class="btn-option correct" disabled>
+                <span class="opt-letter">{{ lettere[i] }}</span>
+                {{ op }}
+              </button>
+            </li>
+          {% elif i == feedback.scelta and not feedback.corretta %}
+            <li>
+              <button class="btn-option wrong" disabled>
+                <span class="opt-letter">{{ lettere[i] }}</span>
+                {{ op }}
+              </button>
+            </li>
+          {% else %}
+            <li>
+              <button class="btn-option" disabled>
+                <span class="opt-letter">{{ lettere[i] }}</span>
+                {{ op }}
+              </button>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      {% if feedback.corretta %}
+      <div class="feedback-box correct-fb">
+        <div class="fb-title">✓ Risposta corretta!</div>
+        {{ feedback.spiegazione }}
+      </div>
+      {% else %}
+      <div class="feedback-box wrong-fb">
+        <div class="fb-title">✗ Risposta errata</div>
+        {{ feedback.spiegazione }}
+      </div>
+      {% endif %}
+
+      <form method="post" action="/quiz">
+        <input type="hidden" name="action" value="avanti">
+        {% if indice == totale %}
+          <button type="submit" class="btn-next">Vedi risultato →</button>
+        {% else %}
+          <button type="submit" class="btn-next">Prossima domanda →</button>
+        {% endif %}
+      </form>
+
+      {% endif %}
+
+    </div>
+
+    <footer class="app-footer">
+      Simulatore non ufficiale · uso didattico
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risultato · Test Medicina</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="app-header">
+      <div class="badge">Risultato</div>
+      <h1>Il tuo <span>Score</span></h1>
+    </header>
+
+    <div class="card">
+
+      <!-- Cerchio punteggio -->
+      <div class="score-circle">
+        <span class="score-num">{{ punteggio }}</span>
+        <span class="score-tot">su {{ totale }}</span>
+      </div>
+
+      <!-- Messaggio dinamico -->
+      {% if percentuale >= 80 %}
+        <p class="result-message">🎯 Ottimo lavoro!</p>
+        <p class="result-sub">Sei sulla strada giusta per superare il filtro.</p>
+      {% elif percentuale >= 60 %}
+        <p class="result-message">📚 Buona base</p>
+        <p class="result-sub">Ancora qualche lacuna — ripassaci sopra.</p>
+      {% elif percentuale >= 40 %}
+        <p class="result-message">⚠️ Da migliorare</p>
+        <p class="result-sub">Torna sui fondamentali prima di riprovare.</p>
+      {% else %}
+        <p class="result-message">💡 Continua a studiare</p>
+        <p class="result-sub">Non mollare — riparti dalla teoria.</p>
+      {% endif %}
+
+      <div class="divider"></div>
+
+      <!-- Griglia statistiche -->
+      <div class="result-grid">
+        <div class="result-stat">
+          <div class="rs-val">{{ percentuale }}%</div>
+          <div class="rs-label">Percentuale</div>
+        </div>
+        <div class="result-stat">
+          <div class="rs-val">{{ totale - punteggio }}</div>
+          <div class="rs-label">Errori</div>
+        </div>
+        <div class="result-stat">
+          <div class="rs-val">{{ materia | capitalize }}</div>
+          <div class="rs-label">Materia</div>
+        </div>
+        <div class="result-stat">
+          <div class="rs-val">{{ livello | capitalize }}</div>
+          <div class="rs-label">Livello</div>
+        </div>
+      </div>
+
+      <!-- Azioni -->
+      <a href="/start-same" style="text-decoration:none;">
+        <button class="btn-primary" style="margin-bottom: 0.7rem;">
+          Riprova stesso test →
+        </button>
+      </a>
+      <a href="/" style="text-decoration:none;">
+        <button class="btn-secondary">
+          Cambia materia / livello
+        </button>
+      </a>
+
+    </div>
+
+    <footer class="app-footer">
+      Simulatore non ufficiale · uso didattico
+    </footer>
+
+  </div>
+</body>
+</html>

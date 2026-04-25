@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulatore Test Medicina</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="app-header">
+      <div class="badge">Simulatore Ufficiale</div>
+      <h1>Test di <span>Medicina</span></h1>
+      <p>Allenati con domande selezionate in stile<br>semestre filtro — per arrivare preparato.</p>
+    </header>
+
+    <div class="card">
+      <form action="/start" method="post">
+
+        <div class="form-group">
+          <label for="materia">Materia</label>
+          <select id="materia" name="materia">
+            <option value="biologia">🧬 Biologia</option>
+            <option value="chimica">⚗️ Chimica</option>
+            <option value="fisica">⚡ Fisica</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="livello">Livello di difficoltà</label>
+          <select id="livello" name="livello">
+            <option value="medio">Medio — Fondamentali</option>
+            <option value="difficile">Difficile — Avanzato</option>
+          </select>
+        </div>
+
+        <div class="divider"></div>
+
+        <button type="submit" class="btn-primary">
+          Inizia il Test →
+        </button>
+
+      </form>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-box">
+        <span class="stat-num">30</span>
+        <span class="stat-label">Domande</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Materie</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">2</span>
+        <span class="stat-label">Livelli</span>
+      </div>
+    </div>
+
+    <footer class="app-footer">
+      Simulatore non ufficiale · uso didattico
+    </footer>
+
+  </div>
+</body>
+</html>
