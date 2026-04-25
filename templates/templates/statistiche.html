@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistiche · Test Medicina</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <!-- Sfondo accademico-scientifico -->
+  <div class="bg-canvas">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#1a3a6e" stop-opacity="0.7"/><stop offset="100%" stop-color="#0a0f1e" stop-opacity="0"/></radialGradient>
+        <radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#c8a96e" stop-opacity="0.45"/><stop offset="100%" stop-color="#0a0f1e" stop-opacity="0"/></radialGradient>
+      </defs>
+      <ellipse cx="200" cy="200" rx="400" ry="350" fill="url(#glow1)"/>
+      <ellipse cx="1200" cy="700" rx="380" ry="300" fill="url(#glow1)"/>
+      <ellipse cx="900" cy="150" rx="300" ry="250" fill="url(#glow2)"/>
+      <g class="bg-el-1" fill="none" stroke="#c8a96e" stroke-width="0.8" opacity="0.35"><rect x="60" y="200" width="28" height="480" rx="2"/><rect x="55" y="190" width="38" height="18" rx="1"/><line x1="68" y1="210" x2="68" y2="668"/><line x1="74" y1="210" x2="74" y2="668"/><line x1="80" y1="210" x2="80" y2="668"/></g>
+      <g class="bg-el-3" fill="none" stroke="#c8a96e" stroke-width="0.8" opacity="0.28"><rect x="1350" y="180" width="28" height="500" rx="2"/><rect x="1345" y="170" width="38" height="18" rx="1"/><line x1="1358" y1="190" x2="1358" y2="670"/><line x1="1364" y1="190" x2="1364" y2="670"/><line x1="1370" y1="190" x2="1370" y2="670"/></g>
+      <g class="bg-el-2" fill="none" stroke="#8aafdf" stroke-width="0.7" opacity="0.35"><path d="M 180 350 Q 220 370 180 390 Q 140 410 180 430 Q 220 450 180 470 Q 140 490 180 510 Q 220 530 180 550"/><path d="M 200 350 Q 160 370 200 390 Q 240 410 200 430 Q 160 450 200 470 Q 240 490 200 510 Q 160 530 200 550"/><line x1="185" y1="368" x2="195" y2="372"/><line x1="183" y1="408" x2="197" y2="412"/><line x1="185" y1="448" x2="195" y2="452"/></g>
+      <g class="bg-el-1" opacity="0.25" font-family="Georgia, serif" fill="#c8a96e"><text x="80" y="160" font-size="13">F = ma</text><text x="1300" y="280" font-size="11">E = hν</text><text x="70" y="750" font-size="11">λ = v/f</text><text x="1290" y="800" font-size="12">pH = -log[H⁺]</text></g>
+      <g class="bg-el-3" opacity="0.22" font-family="Georgia, serif" fill="#8aafdf"><text x="100" y="580" font-size="10">2n = 46</text><text x="1310" y="160" font-size="11">ATP → ADP</text><text x="85" y="480" font-size="11">I = V/R</text></g>
+    </svg>
+  </div>
+
+  <div class="page-wrapper">
+
+    <header class="app-header">
+      <div class="badge">Il tuo progresso</div>
+      <h1>Le tue <span>Statistiche</span></h1>
+    </header>
+
+    <!-- Riepilogo globale -->
+    <div class="stats-row" id="riepilogo" style="margin-bottom: 1.2rem;">
+      <div class="stat-box">
+        <span class="stat-num" id="tot-test">—</span>
+        <span class="stat-label">Test totali</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="media-globale">—</span>
+        <span class="stat-label">Media %</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" id="migliore">—</span>
+        <span class="stat-label">Miglior score</span>
+      </div>
+    </div>
+
+    <!-- Statistiche per materia -->
+    <div class="card" style="margin-bottom: 1.2rem;">
+      <p style="font-size:0.78rem; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; color:var(--muted); margin-bottom:1rem;">Media per materia</p>
+      <div id="per-materia">
+        <p style="color:var(--muted); font-size:0.9rem;">Nessun test ancora.</p>
+      </div>
+    </div>
+
+    <!-- Storico test -->
+    <div class="card">
+      <p style="font-size:0.78rem; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; color:var(--muted); margin-bottom:1rem;">Storico test</p>
+      <div id="storico-lista">
+        <p style="color:var(--muted); font-size:0.9rem;">Nessun test ancora.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:1.2rem; display:flex; gap:0.7rem; flex-direction:column;">
+      <a href="/" style="text-decoration:none;">
+        <button class="btn-primary">Nuovo test →</button>
+      </a>
+      <button class="btn-secondary" id="btn-reset" onclick="resetStorico()">Cancella storico</button>
+    </div>
+
+    <footer class="app-footer">Simulatore non ufficiale · uso didattico</footer>
+  </div>
+
+  <script>
+    const COLORI = {
+      biologia: '#2ecc71',
+      chimica:  '#c8a96e',
+      fisica:   '#3498db'
+    };
+
+    function resetStorico() {
+      if (confirm('Sei sicuro di voler cancellare tutto lo storico?')) {
+        localStorage.removeItem('quiz_storico');
+        location.reload();
+      }
+    }
+
+    function renderStatistiche() {
+      const storico = JSON.parse(localStorage.getItem('quiz_storico') || '[]');
+
+      if (storico.length === 0) return;
+
+      // Riepilogo globale
+      const media = Math.round(storico.reduce((s, t) => s + t.percentuale, 0) / storico.length);
+      const migliore = Math.max(...storico.map(t => t.percentuale));
+      document.getElementById('tot-test').textContent = storico.length;
+      document.getElementById('media-globale').textContent = media + '%';
+      document.getElementById('migliore').textContent = migliore + '%';
+
+      // Per materia
+      const materie = ['biologia', 'chimica', 'fisica'];
+      const perMateriaEl = document.getElementById('per-materia');
+      perMateriaEl.innerHTML = '';
+
+      materie.forEach(m => {
+        const tests = storico.filter(t => t.materia === m);
+        if (tests.length === 0) return;
+        const mediaM = Math.round(tests.reduce((s, t) => s + t.percentuale, 0) / tests.length);
+        const colore = COLORI[m] || '#888';
+
+        perMateriaEl.innerHTML += `
+          <div style="margin-bottom:1rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+              <span style="font-size:0.9rem; text-transform:capitalize; font-weight:500;">${m}</span>
+              <span style="font-size:0.9rem; color:var(--muted);">${mediaM}% · ${tests.length} test</span>
+            </div>
+            <div style="height:6px; background:var(--border2); border-radius:3px; overflow:hidden;">
+              <div style="height:100%; width:${mediaM}%; background:${colore}; border-radius:3px; transition:width 0.6s ease;"></div>
+            </div>
+          </div>`;
+      });
+
+      // Storico lista
+      const storicoEl = document.getElementById('storico-lista');
+      storicoEl.innerHTML = '';
+      storico.slice(0, 20).forEach((t, i) => {
+        const colore = t.percentuale >= 80 ? '#2ecc71' : t.percentuale >= 60 ? '#c8a96e' : '#e74c3c';
+        storicoEl.innerHTML += `
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:0.7rem 0; border-bottom:1px solid var(--border); ${i === 0 ? 'border-top:1px solid var(--border);' : ''}">
+            <div>
+              <span style="font-size:0.9rem; text-transform:capitalize; font-weight:500;">${t.materia}</span>
+              <span style="font-size:0.78rem; color:var(--muted); margin-left:0.5rem;">${t.livello} · ${t.data}</span>
+            </div>
+            <span style="font-size:1rem; font-weight:600; color:${colore};">${t.punteggio}/${t.totale}</span>
+          </div>`;
+      });
+    }
+
+    renderStatistiche();
+  </script>
+</body>
+</html>
