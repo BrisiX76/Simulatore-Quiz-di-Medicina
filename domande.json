@@ -1004,5 +1004,211 @@
         "spiegazione": "La legge di Hess afferma che la variazione di entalpia totale di una reazione è la stessa indipendentemente dal percorso, poiché H è una funzione di stato."
       }
     ]
+  },
+  "gruppo": {
+    "medio": [
+      {
+        "domanda": "Chi è il membro del gruppo che ha scritto più messaggi in assoluto nella chat?",
+        "opzioni": [
+          "Gigio Petri",
+          "Manu",
+          "Pierino"
+        ],
+        "corretta": "Pierino",
+        "spiegazione": "Pierino domina la classifica messaggi con oltre 5.400 messaggi, davanti a Manu (3.468) e Gigio Petri (2.816). Un vero professionista della chat."
+      },
+      {
+        "domanda": "Qual è il brindisi tipico del gruppo, usato da tutti fin dal primo giorno della chat?",
+        "opzioni": [
+          "Cin cin!",
+          "Eia!",
+          "Salute!"
+        ],
+        "corretta": "Eia!",
+        "spiegazione": "\"Eia!\" accompagnato dall'emoji del vino 🍷 è il brindisi storico del gruppo, usato fin dal 28 giugno 2015. Lo ha lanciato Canapino con \"Egliaaaa\" e da lì è diventato un classico."
+      },
+      {
+        "domanda": "Come viene chiamato affettuosamente Pierino nel gruppo?",
+        "opzioni": [
+          "Piatto",
+          "Prisco",
+          "Bindi"
+        ],
+        "corretta": "Piatto",
+        "spiegazione": "Pierino è universalmente noto come \"Piatto\" — soprannome usato da tutti i membri del gruppo in ogni occasione. \"Cavalier Piatto da Spezzacavalli\" nella versione epica."
+      },
+      {
+        "domanda": "Il gruppo ha organizzato un viaggio a Budapest. Chi si è rifiutato di andare perché \"le pizze in Ungheria costano migliaia di fiorini\"?",
+        "opzioni": [
+          "Canapino",
+          "Lele",
+          "Padde"
+        ],
+        "corretta": "Lele",
+        "spiegazione": "Lele ha dichiarato solennemente \"Io non vengo a Budabuda!\" citando il costo delle pizze in Ungheria come motivazione principale. Gigio se lo ricordava ancora settimane dopo."
+      },
+      {
+        "domanda": "Durante una gita, quanto hanno pagato Padde e compagni al meccanico grazie a \"un po' d'amicizia\"?",
+        "opzioni": [
+          "250€",
+          "300€",
+          "321€ + IVA"
+        ],
+        "corretta": "300€",
+        "spiegazione": "\"Senza fattura e con un po' d'amicizia ce la siamo cavata con trecentino secco\" — dopo quasi 800km e un preventivo originale di 321€ + IVA. Topi leggendari."
+      },
+      {
+        "domanda": "Come viene chiamato il Fantacalcio del gruppo?",
+        "opzioni": [
+          "FantaLeggenda",
+          "FantaMarquez",
+          "Tutti e due, si cambia spesso"
+        ],
+        "corretta": "Tutti e due, si cambia spesso",
+        "spiegazione": "Il nome del gruppo WhatsApp cambia continuamente in base agli umori: FantaNonMeLoFare, FantaAnziosi, FantaMarquez, FantaLaxalt... Una lunga storia di rename leggendari."
+      },
+      {
+        "domanda": "Chi è \"Canapino\" nel gruppo?",
+        "opzioni": [
+          "Un personaggio che si nasconde anche nel deserto",
+          "Il più silenzioso del gruppo",
+          "Quello che arriva sempre puntuale"
+        ],
+        "corretta": "Un personaggio che si nasconde anche nel deserto",
+        "spiegazione": "\"Canapino si nasconde anche nel deserto\" — citazione di Manu durante una partita di guerra-sfottò. Famoso per le sue mosse da commando e per aver fatto incazzare Gigio."
+      },
+      {
+        "domanda": "Lele ha scritto un messaggio commovente sulla chat dicendo che senza il gruppo il sapore della vita saprebbe \"un po' di...\"?",
+        "opzioni": [
+          "Acqua fresca",
+          "Malinconico",
+          "Niente"
+        ],
+        "corretta": "Malinconico",
+        "spiegazione": "\"Senza ognuno di voi, il sapore di vivere mi saprebbe un pò di malinconico\" — il messaggio poetico di Lele del 28 giugno 2015, che ha fatto sciogliere tutto il gruppo."
+      },
+      {
+        "domanda": "Cosa porta sempre Manu alle serate del gruppo?",
+        "opzioni": [
+          "La pizza",
+          "I funghi",
+          "Il vino"
+        ],
+        "corretta": "I funghi",
+        "spiegazione": "\"Potrei aver trovato i funghi\" è una frase ricorrente di Manu quando si organizzano le serate. I funghi sono il suo contributo leggendario alle cene del gruppo."
+      },
+      {
+        "domanda": "Paggio arriva alle serate dicendo sempre che arriva \"già mangiato\". A che ora arriva di solito?",
+        "opzioni": [
+          "Alle 19",
+          "Alle 21",
+          "Dopo mezzanotte"
+        ],
+        "corretta": "Alle 21",
+        "spiegazione": "\"Io come detto arrivo alle 9 già mangiato\" — Paggio è famoso per presentarsi alle 21 già sazio, scatenando le ire di Pierino che risponde con un eloquente \"Vomito 🤮\"."
+      },
+      {
+        "domanda": "Come viene chiamato il fantacalcio nel gergo del gruppo?",
+        "opzioni": [
+          "Il Fanta",
+          "L'asta",
+          "La zuzza"
+        ],
+        "corretta": "L'asta",
+        "spiegazione": "\"L'asta\" è il momento clou del Fantacalcio del gruppo — quella per cui ci si organizza la serata, si aspettano tutti, e si va avanti fino alle 4 di notte."
+      },
+      {
+        "domanda": "Chi viene chiamato \"Caliprisco\" o \"il pulcino delle favelas\"?",
+        "opzioni": [
+          "Manu",
+          "Prisco (4 stagioni)",
+          "Padde"
+        ],
+        "corretta": "Prisco (4 stagioni)",
+        "spiegazione": "\"Caliprisco è il pulcino delle favelas... si fa come dice lui\" — Lele sul conto di Prisco (4 stagioni), il cui vero nome sembra essere Fabio e che è il capo indiscusso delle decisioni del gruppo."
+      }
+    ],
+    "difficile": [
+      {
+        "domanda": "Quante ore ha dormito Gigio Petri dopo la gita, lamentandosi di sentirsi un catorcio?",
+        "opzioni": [
+          "8 ore",
+          "11 ore",
+          "13 ore"
+        ],
+        "corretta": "11 ore",
+        "spiegazione": "\"Sarà per quei km che mi sento un catorcio? E sono stato a letto 11 ore\" — Gigio dopo quasi 800km di avventure. Il nuovo lavoro non gli faceva bene, come ha ribadito più volte."
+      },
+      {
+        "domanda": "A che ora era fissato il ritrovo al Piazzone per il viaggio a Budapest?",
+        "opzioni": [
+          "Alle 7:00 o 7:30",
+          "Alle 8:00",
+          "Alle 6:30"
+        ],
+        "corretta": "Alle 7:00 o 7:30",
+        "spiegazione": "\"Alle 7 al piazzone. Anche 7:30 va\" — Gigio con la sua proverbiale flessibilità. Pierino però voleva la colazione, quindi le 7:29 erano fondamentali."
+      },
+      {
+        "domanda": "Chi ha vinto al mini ping-pong contro Riccardo Bindi, definendo la vittoria \"leggendaria\"?",
+        "opzioni": [
+          "Gigio Petri",
+          "Meo",
+          "Pierino"
+        ],
+        "corretta": "Pierino",
+        "spiegazione": "\"Ma che lezione ti ho dato caro Riccardo Bindi al mini-pingpong!?!?..leggendaria direi\" — Pierino si è vantato della vittoria, ma Canapino ha risposto: \"Ti ho fatto vincere\" 😗"
+      },
+      {
+        "domanda": "Quanto tempo hanno impiegato Prisco e Cileno a fare una cosa non specificata, battendo ogni record precedente?",
+        "opzioni": [
+          "19 ore e 50 minuti",
+          "22 ore e 50 minuti",
+          "12 ore e 30 minuti"
+        ],
+        "corretta": "22 ore e 50 minuti",
+        "spiegazione": "\"Prisco e cileno battono il precedente record con un grandissimo 22 e 50 minuti\" — Gigio il 29 giugno 2015. Non è chiaro cosa abbiano fatto, ma il record è entrato nella leggenda."
+      },
+      {
+        "domanda": "Quale soprannome epico si è dato Pierino nella chat?",
+        "opzioni": [
+          "Il Commando",
+          "Cavalier Piatto da Spezzacavalli",
+          "Arnold Swarzecanapo"
+        ],
+        "corretta": "Cavalier Piatto da Spezzacavalli",
+        "spiegazione": "\"La leggenda di Cavalier Piatto da Spezzacavalli\" — Pierino si è inventato questo titolo nobiliare il 22 luglio 2015. Non è da confondere con Arnold Swarzecanapo, che è Canapino."
+      },
+      {
+        "domanda": "La Tuscar è una squadra di calcio locale. Contro chi ha giocato Pierino in una partita finita 6-5 ai rigori?",
+        "opzioni": [
+          "Arezzo",
+          "La Sangio",
+          "I Desaparecidos"
+        ],
+        "corretta": "La Sangio",
+        "spiegazione": "\"Ieri sera partitone contro la Sangio... 6-5 ai rigori!!\" — Pierino il 7 giugno 2018, entusiasta della vittoria ai rigori."
+      },
+      {
+        "domanda": "Chi è il \"Fo\" citato da Gigio come quello che \"dopo 3 mesi sta finalmente perdendo l'imbarazzo e sforna le sue leggendarie perle trash\"?",
+        "opzioni": [
+          "Un nuovo membro del gruppo",
+          "Il fratello di Manu",
+          "Canapino con un altro nome"
+        ],
+        "corretta": "Un nuovo membro del gruppo",
+        "spiegazione": "Fo🏅 è un membro del gruppo entrato nella chat in un secondo momento. La sua prima \"perla\" è stato un indovinello: Q (James Bond) + Oche non ammazza (Pistorius) = \"Quello che non ammazza ingrassa\"."
+      },
+      {
+        "domanda": "Cosa ha fatto il Pera (Gala) il giorno prima del compleanno del Lele?",
+        "opzioni": [
+          "Ha organizzato una festa a sorpresa",
+          "Ha svuotato tutte le scorte di bere del locale",
+          "Ha cucinato per tutto il gruppo"
+        ],
+        "corretta": "Ha svuotato tutte le scorte di bere del locale",
+        "spiegazione": "\"Il pera ha tolto tutto il bere e penso anche luccheccato il giorno dopo c'è il compleanno del lelo quindi ha svuotato tutto... C'è solo il caffè\" — Gala il 12 settembre 2024. Strategia preventiva leggendaria."
+      }
+    ]
   }
 }
