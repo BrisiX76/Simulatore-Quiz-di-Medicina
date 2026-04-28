@@ -1126,6 +1126,126 @@
         ],
         "corretta": "Prisco (4 stagioni)",
         "spiegazione": "\"Caliprisco è il pulcino delle favelas... si fa come dice lui\" — Lele sul conto di Prisco (4 stagioni), il cui vero nome sembra essere Fabio e che è il capo indiscusso delle decisioni del gruppo."
+      },
+      {
+        "domanda": "Chi ha scritto più volte la parola 'merda' nella chat? (Risposta basata su dati reali, non opinioni personali)",
+        "opzioni": [
+          "Manu (40 volte)",
+          "Pierino (58 volte)",
+          "Gigio Petri (40 volte)"
+        ],
+        "corretta": "Pierino (58 volte)",
+        "spiegazione": "Pierino domina anche la classifica delle parolacce con 58 'merda' documentate. Medaglia d'argento ex aequo per Manu e Gigio con 40 ciascuno. Yuri invece è l'unico del gruppo con zero 'merda' scritte — evidentemente lo pensa ma non lo scrive. 😇"
+      },
+      {
+        "domanda": "Qual è la parola volgare più usata in assoluto nella chat del FantaLeggenda?",
+        "opzioni": [
+          "Merda (230 volte)",
+          "Cazzo (386 volte)",
+          "Vaffanculo (46 volte)"
+        ],
+        "corretta": "Cazzo (386 volte)",
+        "spiegazione": "Con 386 occorrenze, 'cazzo' è il campione indiscusso del vocabolario del gruppo. 'Merda' è seconda con 230, mentre 'vaffanculo' è il più raro con solo 46. Il gruppo comunica prevalentemente per sfumature di intensità della stessa parola."
+      },
+      {
+        "domanda": "Qual è l'emoji più usata nella chat del FantaLeggenda?",
+        "opzioni": [
+          "👏 (1.938 volte)",
+          "😱 (646 volte)",
+          "😂 (14.060 volte)"
+        ],
+        "corretta": "😂 (14.060 volte)",
+        "spiegazione": "😂 con 14.060 occorrenze è l'emoji dominante — praticamente ogni terzo messaggio contiene almeno una risata. In confronto 👏 con 1.938 sembra quasi sobria. Il gruppo ride tanto, ride forte, e ride spesso di Pierino."
+      },
+      {
+        "domanda": "Chi ha mandato più file multimediali (foto, video, audio) nella chat?",
+        "opzioni": [
+          "Gigio Petri (423 media)",
+          "Meo (290 media)",
+          "Pierino (759 media)"
+        ],
+        "corretta": "Pierino (759 media)",
+        "spiegazione": "Pierino non è solo il re dei messaggi scritti (5.460) e delle parolacce, ma anche il re dei media con 759 file inviati. Praticamente vive su WhatsApp. Al secondo posto Gigio con 423, poi Meo con 290. Yuri con 440 messaggi totali ha probabilmente un basso media-per-messaggio ratio."
+      },
+      {
+        "domanda": "Quante volte Manu ha citato il nome 'Prisco' in 9 anni di chat?",
+        "opzioni": [
+          "12 volte",
+          "93 volte",
+          "168 volte"
+        ],
+        "corretta": "93 volte",
+        "spiegazione": "Manu ha scritto 'Prisco' 93 volte — ma viene battuto da Gigio Petri che lo ha citato ben 168 volte! Sembra che Prisco (alias 4 stagioni) sia una presenza costante nei pensieri del gruppo. Pierino lo ha citato 28 volte, probabilmente solo per insultarlo."
+      },
+      {
+        "domanda": "Chi è il membro del gruppo che ha detto 'vaffanculo' più volte?",
+        "opzioni": [
+          "Manu (14 volte)",
+          "Cileno (8 volte)",
+          "Meo (8 volte)"
+        ],
+        "corretta": "Manu (14 volte)",
+        "spiegazione": "Manu è il campione del vaffanculo con 14 occorrenze, quasi il doppio di Meo e Cileno (8 ciascuno). Gala è l'unico con zero vaffanculo — evidentemente preferisce esprimersi in altri modi. Pierino, sorprendentemente, ne ha detti solo 6."
+      },
+      {
+        "domanda": "Yuri ha aperto la chat con un messaggio leggendario il primo giorno. Cosa aveva appena considerato di fare?",
+        "opzioni": [
+          "Comprare una barca",
+          "Divorziare",
+          "Trasferirsi all'estero"
+        ],
+        "corretta": "Divorziare",
+        "spiegazione": "\"Niente, ho fatto 2 conti ed il divorzio è caro, c'ho provato\" — Yuri il 27 giugno 2015, ore 22:15. Una dichiarazione d'apertura semplicemente leggendaria. Per fortuna i conti non tornavano."
+      },
+      {
+        "domanda": "Chi dà il buongiorno al gruppo con più regolarità, comportandosi come un nonno sveglio alle 5?",
+        "opzioni": [
+          "Manu (6 buongiorno)",
+          "Gigio Petri (4 buongiorno)",
+          "Pierino (13 buongiorno)"
+        ],
+        "corretta": "Pierino (13 buongiorno)",
+        "spiegazione": "Pierino con 13 buongiorno è il gallo della chat — sempre sveglio, sempre pronto. Manu lo insegue con 6, mentre Gala e Cileno hanno scritto buongiorno zero volte in 9 anni. Probabilmente Gala considera il buongiorno una debolezza."
+      },
+      {
+        "domanda": "Quante volte compare 😱 nella chat? Suggerimento: il gruppo si spaventa facilmente.",
+        "opzioni": [
+          "124 volte",
+          "358 volte",
+          "646 volte"
+        ],
+        "corretta": "646 volte",
+        "spiegazione": "Ben 646 😱 — il gruppo si è spaventato, scioccato e indignato 646 volte in 9 anni. Per fare un confronto, ❤️ appare solo 30 volte. Quindi il gruppo si spaventa 21 volte più spesso di quanto si voglia bene. Fa riflettere."
+      },
+      {
+        "domanda": "Il verbo 'cignare' (dare un ceffone) è un classico del gruppo. Quante volte appare nella chat in tutte le sue forme?",
+        "opzioni": [
+          "7 volte",
+          "21 volte",
+          "46 volte"
+        ],
+        "corretta": "21 volte",
+        "spiegazione": "\"Cignare\" e le sue varianti (cigna, cignato, cigni...) appaiono 21 volte — quasi sempre nei confronti di Prisco, Bindi o chiunque abbia fatto una cosa stupida. È il verbo ufficiale del gruppo per minacce affettuose."
+      },
+      {
+        "domanda": "Cosa ha risposto Padde quando ha cercato di scrivere un messaggio commovente come Lele e Gigio?",
+        "opzioni": [
+          "Ha scritto un poema lungo tre schermate",
+          "Ha detto che non riesce a scrivere messaggi potenti ma vi vuole bene",
+          "Ha mandato solo emoji senza spiegazioni"
+        ],
+        "corretta": "Ha detto che non riesce a scrivere messaggi potenti ma vi vuole bene",
+        "spiegazione": "\"Io non riesco a scrivere nessun messaggio potente 😅😂 Però vi voglio bene e parecchio! ❤️\" — Padde il 28 giugno 2015. La risposta più onesta e adorabile della storia del gruppo. Pierino ha risposto: \"Bella storia! 👍\""
+      },
+      {
+        "domanda": "Quante volte 'zuzze' (le sigarette nel gergo del gruppo) compare nella chat?",
+        "opzioni": [
+          "3 volte",
+          "7 volte",
+          "23 volte"
+        ],
+        "corretta": "7 volte",
+        "spiegazione": "\"Zuzze\" appare 7 volte — sempre in contesti di organizzazione serate. Paggio è il principale consumatore e richiedente di zuzze, mentre Pierino risponde regolarmente con \"Fuma meno somaro\" o varianti creative dello stesso concetto."
       }
     ],
     "difficile": [
@@ -1208,6 +1328,46 @@
         ],
         "corretta": "Ha svuotato tutte le scorte di bere del locale",
         "spiegazione": "\"Il pera ha tolto tutto il bere e penso anche luccheccato il giorno dopo c'è il compleanno del lelo quindi ha svuotato tutto... C'è solo il caffè\" — Gala il 12 settembre 2024. Strategia preventiva leggendaria."
+      },
+      {
+        "domanda": "Se sommiamo tutte le occorrenze di 'merda', 'cazzo' e 'vaffanculo' nella chat, quante parolacce totali troviamo?",
+        "opzioni": [
+          "512 parolacce",
+          "662 parolacce",
+          "841 parolacce"
+        ],
+        "corretta": "662 parolacce",
+        "spiegazione": "Merda (230) + Cazzo (386) + Vaffanculo (46) = 662 parolacce certificate. Considerando che la chat dura dal 2015 al 2024, fanno circa 73 parolacce all'anno, 6 al mese, o 1 ogni 5 giorni. Un gruppo moderato, tutto sommato."
+      },
+      {
+        "domanda": "Pierino ha mandato 759 media nella chat. Se li dividessimo per i 9 anni di chat, quanti media al mese ha inviato in media?",
+        "opzioni": [
+          "Circa 3 al mese",
+          "Circa 7 al mese",
+          "Circa 14 al mese"
+        ],
+        "corretta": "Circa 7 al mese",
+        "spiegazione": "759 media ÷ 108 mesi (9 anni) = circa 7 media al mese. Significa che ogni 4 giorni Pierino mandava una foto, un video o un audio. Probabilmente il 90% erano meme sul Fantacalcio o foto di cene."
+      },
+      {
+        "domanda": "Gigio Petri ha citato Prisco 168 volte. Considerando che Prisco ha scritto circa 2.544 messaggi totali, quante volte Gigio lo ha citato per ogni messaggio scritto da Prisco?",
+        "opzioni": [
+          "Ogni 15 messaggi di Prisco",
+          "Ogni 5 messaggi di Prisco",
+          "Ogni 30 messaggi di Prisco"
+        ],
+        "corretta": "Ogni 15 messaggi di Prisco",
+        "spiegazione": "168 citazioni ÷ 2.544 messaggi = una citazione ogni ~15 messaggi di Prisco. Ovvero Gigio pensa a Prisco con una frequenza inquietante. O lo sfotte. Probabilmente entrambe le cose, con intensità variabile a seconda dei risultati del Fantacalcio."
+      },
+      {
+        "domanda": "Il gruppo usa 😂 14.060 volte in 191.272 messaggi totali. Più o meno ogni quanti messaggi appare almeno una 😂?",
+        "opzioni": [
+          "Ogni 3-4 messaggi",
+          "Ogni 7-8 messaggi",
+          "Ogni 13-14 messaggi"
+        ],
+        "corretta": "Ogni 13-14 messaggi",
+        "spiegazione": "14.060 ÷ 191.272 = circa 1 ogni 13,6 messaggi. Considerando che molti messaggi contengono più 😂, si può dire che il gruppo ride in modo quasi industriale. Nota: questa statistica non include le risate scritte come 'ahahahaha' (altre 314 occorrenze)."
       }
     ]
   }
