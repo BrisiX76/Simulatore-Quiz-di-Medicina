@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Risultato · Test Medicina</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style_gruppo.css') }}">
 </head>
 <body>
   <!-- Sfondo accademico-scientifico -->
@@ -75,14 +76,23 @@
       </div>
 
       <a href="/start-same" style="text-decoration:none;">
-        <button class="btn-primary" style="margin-bottom: 0.7rem;">Riprova stesso test →</button>
+        <button class="{% if modalita == 'gruppo' %}btn-gruppo{% else %}btn-primary{% endif %}" style="margin-bottom: 0.7rem;">Riprova →</button>
       </a>
+      {% if modalita == 'gruppo' %}
+      <a href="/classifica" style="text-decoration:none;">
+        <button class="btn-gruppo-secondary" style="margin-bottom: 0.7rem;">🏆 Vedi classifica</button>
+      </a>
+      <a href="/gruppo" style="text-decoration:none;">
+        <button class="btn-gruppo-secondary">Cambia livello</button>
+      </a>
+      {% else %}
       <a href="/statistiche" style="text-decoration:none;">
         <button class="btn-secondary" style="margin-bottom: 0.7rem;">Vedi statistiche →</button>
       </a>
-      <a href="/" style="text-decoration:none;">
+      <a href="/medicina" style="text-decoration:none;">
         <button class="btn-secondary">Cambia materia / livello</button>
       </a>
+      {% endif %}
 
     </div>
 
@@ -101,8 +111,44 @@
     };
     const storico = JSON.parse(localStorage.getItem('quiz_storico') || '[]');
     storico.unshift(risultato);
-    if (storico.length > 50) storico.pop(); // massimo 50 test salvati
+    if (storico.length > 50) storico.pop();
     localStorage.setItem('quiz_storico', JSON.stringify(storico));
+
+    // ── SUONO RISULTATO ──
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const perc = {{ percentuale }};
+
+    function suonaRisultato() {
+      if (perc >= 60) {
+        // Due note ascendenti morbide — esito positivo
+        [[520, 0], [780, 0.18]].forEach(([freq, delay]) => {
+          const o = ctx.createOscillator();
+          const g = ctx.createGain();
+          o.connect(g); g.connect(ctx.destination);
+          o.type = 'sine';
+          o.frequency.setValueAtTime(freq, ctx.currentTime + delay);
+          g.gain.setValueAtTime(0.08, ctx.currentTime + delay);
+          g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + delay + 0.35);
+          o.start(ctx.currentTime + delay);
+          o.stop(ctx.currentTime + delay + 0.35);
+        });
+      } else {
+        // Nota bassa discendente — esito negativo
+        const o = ctx.createOscillator();
+        const g = ctx.createGain();
+        o.connect(g); g.connect(ctx.destination);
+        o.type = 'sine';
+        o.frequency.setValueAtTime(320, ctx.currentTime);
+        o.frequency.exponentialRampToValueAtTime(200, ctx.currentTime + 0.4);
+        g.gain.setValueAtTime(0.07, ctx.currentTime);
+        g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+        o.start(ctx.currentTime);
+        o.stop(ctx.currentTime + 0.4);
+      }
+    }
+
+    // Piccolo delay per dare tempo alla pagina di caricarsi
+    setTimeout(suonaRisultato, 400);
   </script>
 </body>
 </html>
