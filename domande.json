@@ -1246,6 +1246,446 @@
         ],
         "corretta": "7 volte",
         "spiegazione": "\"Zuzze\" appare 7 volte — sempre in contesti di organizzazione serate. Paggio è il principale consumatore e richiedente di zuzze, mentre Pierino risponde regolarmente con \"Fuma meno somaro\" o varianti creative dello stesso concetto."
+      },
+      {
+        "domanda": "Qual è il giorno con più messaggi in assoluto nella storia della chat?",
+        "opzioni": [
+          "5 gennaio 2016 (353 messaggi)",
+          "27 ottobre 2015 (632 messaggi)",
+          "3 febbraio 2016 (425 messaggi)"
+        ],
+        "corretta": "27 ottobre 2015 (632 messaggi)",
+        "spiegazione": "Il 27 ottobre 2015 è il giorno più chiacchierato della storia con 632 messaggi — quasi tutti sul Fantacalcio e su polemiche di mercato. Padde urlava al ricorso già alle 8 di mattina. Un classico."
+      },
+      {
+        "domanda": "Quante volte il gruppo si è detto 'ti voglio bene', 'tvb' o 'vi vu bu' in 9 anni?",
+        "opzioni": [
+          "23 volte",
+          "87 volte",
+          "156 volte"
+        ],
+        "corretta": "23 volte",
+        "spiegazione": "Solo 23 dichiarazioni d'affetto in 9 anni contro 662 parolacce. Il rapporto è di circa 1 'ti voglio bene' ogni 28 parolacce. Il gruppo esprime l'amore principalmente attraverso gli insulti."
+      },
+      {
+        "domanda": "Quante volte viene menzionato 'aperitivo' nella chat?",
+        "opzioni": [
+          "12 volte",
+          "73 volte",
+          "210 volte"
+        ],
+        "corretta": "73 volte",
+        "spiegazione": "73 aperitivi menzionati in 9 anni — circa 8 all'anno, uno ogni 6 settimane. Considerando che molti vengono rimandati, cancellati o dimenticati, quelli effettivamente fatti sono probabilmente molto meno."
+      },
+      {
+        "domanda": "Come si chiama il locale dove il gruppo va spesso a cena ad Arezzo?",
+        "opzioni": [
+          "Il Naboo",
+          "Il Principe",
+          "Il Dolceverde"
+        ],
+        "corretta": "Il Principe",
+        "spiegazione": "Il Principe a Giovi è il ristorante di riferimento del gruppo. Gigio lo frequenta così tanto da commentare sarcasticamente: 'Una cena al Principe è proprio un bel variare'. Il Dolceverde era un'alternativa, il Naboo per gli aperitivi."
+      },
+      {
+        "domanda": "Padde si è definito in un messaggio storico come 'povero studente'. Quanti anni aveva quando è entrato nella chat?",
+        "opzioni": [
+          "Era già laureato",
+          "Era ancora studente universitario",
+          "Era alle superiori"
+        ],
+        "corretta": "Era ancora studente universitario",
+        "spiegazione": "\"Sono un povero studente non ve lo dimenticate 😞\" — Padde nel 2015. Ha usato questa scusa almeno una volta per non pagare. Nessuno ci ha mai creduto veramente."
+      },
+      {
+        "domanda": "Il compleanno di Pierino (alias Piatto) cade a dicembre. Come gli ha fatto gli auguri il gruppo?",
+        "opzioni": [
+          "Con un messaggio collettivo molto commovente",
+          "Pierino stesso ha fatto gli auguri a tutti gli altri",
+          "Con insulti affettuosi e un vaffanculo di servizio"
+        ],
+        "corretta": "Pierino stesso ha fatto gli auguri a tutti gli altri",
+        "spiegazione": "\"Oh ragazzi!..tanti auguriiii al piatto e tanti auguri, di ❤, a tutti voi, umani ed alieni! VTB\" — Pierino il 10 dicembre 2015 ha fatto gli auguri a se stesso E a tutto il gruppo. Efficienza leggendaria."
+      },
+      {
+        "domanda": "Quanti membri unici hanno scritto messaggi nella chat nel periodo documentato?",
+        "opzioni": [
+          "8 membri",
+          "12 membri",
+          "15 membri"
+        ],
+        "corretta": "12 membri",
+        "spiegazione": "I 12 guerrieri del FantaLeggenda sono: Pierino, Manu, Gigio Petri, 4 stagioni (Prisco), Meo, Padde, Lele, Canapino, Gala, Cileno, Paggio e Yuri. Ognuno con il suo ruolo, il suo soprannome e la sua quota di parolacce."
+      },
+      {
+        "domanda": "Lele propone spesso delle 'pedalate' al gruppo. Come le chiama?",
+        "opzioni": [
+          "Pedalate purificanti",
+          "Pedalate spurganti",
+          "Pedalate leggendarie"
+        ],
+        "corretta": "Pedalate spurganti",
+        "spiegazione": "\"Oh ma una pedalata spurgante?? tarda serata... tarda tarda eh!!!\" — Lele il 29 giugno 2015. La pedalata spurgante è un rito del gruppo per smaltire le cene abbondanti. Nessuno ha mai capito esattamente cosa si spurghi."
+      },
+      {
+        "domanda": "Meo si vanta di aver dato 'lezioni' al gruppo in quale videogioco?",
+        "opzioni": [
+          "FIFA",
+          "Un fantastico videogioco (non specificato)",
+          "Crash Team Racing"
+        ],
+        "corretta": "Un fantastico videogioco (non specificato)",
+        "spiegazione": "\"Ma che lezioni che vi ho dato ieri a quel fantastico videogioco?!\" — Meo il 9 novembre 2015. Non ha specificato il gioco, ma la spocchia era massima. Nel 2020 invece il gruppo ha giocato insieme a Crash Team Racing."
+      },
+      {
+        "domanda": "Cosa ha risposto Canapino a Pierino quando quest'ultimo si vantava di averlo battuto al mini ping-pong?",
+        "opzioni": [
+          "Ha ammesso la sconfitta con dignità",
+          "Ha lanciato il tavolo dalla finestra",
+          "Ti ho fatto vincere"
+        ],
+        "corretta": "Ti ho fatto vincere",
+        "spiegazione": "\"Ti ho fatto vincere 😗😗😗\" — la risposta di Canapino alla vanteria leggendaria di Pierino. Classico comportamento da commando: perde, ma dice che ha lasciato vincere. Canapino si nasconde anche nei risultati sportivi."
+      },
+      {
+        "domanda": "Come ha descritto Gigio la barca che ha progettato/mostrato al gruppo?",
+        "opzioni": [
+          "La barca dei sogni",
+          "La barca bottigliosa",
+          "La barca leggendaria"
+        ],
+        "corretta": "La barca bottigliosa",
+        "spiegazione": "\"La barca bottigliosa\" — definizione di Cileno per la creazione nautica di Gigio. Gigio ha risposto con un punto interrogativo, probabilmente orgoglioso. Lo zio gli ha consigliato di divertirsi e tornare da solo."
+      },
+      {
+        "domanda": "Cosa ha scritto Gigio subito dopo una nottata di Crash Team Racing con Manu?",
+        "opzioni": [
+          "È stato togo, rifacciamolo",
+          "Anche io devo avere un cinquantino",
+          "Si, Togo"
+        ],
+        "corretta": "Si, Togo",
+        "spiegazione": "\"Si, Togo\" — Gigio alle 00:23 dopo una sessione di Crash in 2. Nel vocabolario del gruppo 'togo' significa fantastico/divertente. Una parola che vale mille emoji."
+      },
+      {
+        "domanda": "Cos'ha fatto Padde quando ha scoperto che Gigio aveva comunicato in ritardo una notizia importante sul Fantacalcio?",
+        "opzioni": [
+          "Ha accettato stoicamente",
+          "Ha gridato al ricorso e minacciato di non parlare con Gigio per tutto il girone d'andata",
+          "Ha cambiato il nome del gruppo"
+        ],
+        "corretta": "Ha gridato al ricorso e minacciato di non parlare con Gigio per tutto il girone d'andata",
+        "spiegazione": "\"Grido al ricorso!!\" e \"So a rischio di non parlarti per tutto il girone d'andata\" — Padde alle 8 di mattina del 27 ottobre 2015, il giorno record con 632 messaggi. La minaccia non è mai stata eseguita."
+      },
+      {
+        "domanda": "Come ha salutato il gruppo 4 stagioni (Prisco) a Capodanno 2015?",
+        "opzioni": [
+          "Con un messaggio commovente lungo tre schermate",
+          "Auguri a tutti. Musi di merda.",
+          "Con solo un'emoji 🥂"
+        ],
+        "corretta": "Auguri a tutti. Musi di merda.",
+        "spiegazione": "\"auguri a tutti. Musi di merda.\" — Prisco il 31 dicembre 2015. Breve, diretto, affettuoso a modo suo. Probabilmente il miglior augurio di Capodanno mai scritto in questa chat."
+      },
+      {
+        "domanda": "Lele a Natale 2015 ha scritto che il gruppo è 'fantastaspaci'. Cosa ha aggiunto sulla ragione del messaggio natalizio?",
+        "opzioni": [
+          "Perché ci teneva davvero al Natale",
+          "Non è tanto per il natale in sé, è una buona scusa per ricordare quanto siete fantastici",
+          "Perché voleva fare bella figura"
+        ],
+        "corretta": "Non è tanto per il natale in sé, è una buona scusa per ricordare quanto siete fantastici",
+        "spiegazione": "\"Non è tanto per il natale in se per se, diciamo che è un buona scusa per ricordare quanto cazzo siamo fantastaspaci\" — Lele il 25 dicembre 2015 alle 4:55 di notte. Sobrio come sempre."
+      },
+      {
+        "domanda": "Completa la frase storica di Prisco a Capodanno 2015: 'Auguri a tutti. ___'",
+        "opzioni": [
+          "Ci voglio bene.",
+          "Musi di merda.",
+          "Che l'anno nuovo sia leggendario."
+        ],
+        "corretta": "Musi di merda.",
+        "spiegazione": "\"Auguri a tutti. Musi di merda.\" — Prisco il 31 dicembre 2015. Conciso, diretto, affettuoso. Il miglior augurio di Capodanno nella storia della chat."
+      },
+      {
+        "domanda": "Completa il titolo nobiliare che si è dato Pierino: 'Cavalier ___ da Spezzacavalli'",
+        "opzioni": [
+          "Rizzo",
+          "Piatto",
+          "Grande"
+        ],
+        "corretta": "Piatto",
+        "spiegazione": "\"La leggenda di Cavalier Piatto da Spezzacavalli\" — Pierino il 22 luglio 2015. Un titolo inventato, ma portato con grande dignità."
+      },
+      {
+        "domanda": "Completa il soprannome di Canapino inventato da Pierino: 'Arnold ___'",
+        "opzioni": [
+          "Swarzecanapo",
+          "Canaperone",
+          "Comandando"
+        ],
+        "corretta": "Swarzecanapo",
+        "spiegazione": "\"Arnold Swarzecanapo\" — Pierino su Canapino dopo le sue gesta da commando durante una gita. Una fusione perfetta tra Arnold Schwarzenegger e Canapino."
+      },
+      {
+        "domanda": "VERO O FALSO: Yuri ha più messaggi scritti di Canapino nella chat.",
+        "opzioni": [
+          "VERO — Yuri ha 440, Canapino 957",
+          "FALSO — Canapino ha 957, Yuri solo 440",
+          "Sono pari"
+        ],
+        "corretta": "FALSO — Canapino ha 957, Yuri solo 440",
+        "spiegazione": "Canapino con 957 messaggi quasi doppia Yuri che ne ha 440. Yuri è il più silenzioso del gruppo — ma quando parla, dice cose memorabili come 'il divorzio è caro'."
+      },
+      {
+        "domanda": "VERO O FALSO: Il gruppo ha mai cambiato il nome della chat in 'FantaLaxalt'.",
+        "opzioni": [
+          "VERO",
+          "FALSO",
+          "Non si ricorda"
+        ],
+        "corretta": "VERO",
+        "spiegazione": "Sì! Il 28 ottobre 2015 Gigio ha cambiato il nome in FantaLaxalt dopo che il giocatore aveva segnato. Prima era FantaMarquez. Il gruppo cambia nome più spesso di quante volte si dica 'ti voglio bene'."
+      },
+      {
+        "domanda": "VERO O FALSO: Lele ha scritto il messaggio commovente sulla chat alle 4:55 di notte di Natale.",
+        "opzioni": [
+          "VERO",
+          "FALSO — era mezzogiorno",
+          "FALSO — era mezzanotte"
+        ],
+        "corretta": "VERO",
+        "spiegazione": "\"Non è tanto per il natale in se per se...\" — Lele il 25 dicembre 2015 alle 04:55. Sobrio come sempre. Il gruppo ha probabilmente trovato il messaggio la mattina dopo con grande sorpresa."
+      },
+      {
+        "domanda": "VERO O FALSO: Canapino ha votato nella disputa sul mercato Fantacalcio del 27 ottobre 2015.",
+        "opzioni": [
+          "VERO — ha votato sì",
+          "FALSO — si è astenuto con comunicato ufficiale dell'A.C.Picchia",
+          "FALSO — non era online"
+        ],
+        "corretta": "FALSO — si è astenuto con comunicato ufficiale dell'A.C.Picchia",
+        "spiegazione": "Canapino ha emesso un 'Comunicato ufficiale dell'A.C.Picchia' per astenersi dalla votazione. Pierino ha risposto: 'Non puoi astenerti Cana! ...vota!' Ma Canapino, da vero commando, ha tenuto la posizione."
+      },
+      {
+        "domanda": "Chi ha detto 'Io sono leggenda!!!' nella chat?",
+        "opzioni": [
+          "Gigio Petri",
+          "Meo",
+          "Pierino"
+        ],
+        "corretta": "Pierino",
+        "spiegazione": "\"Io sono leggenda!!!\" — Pierino il 27 ottobre 2015, nel giorno più caotico della chat. Lo ha detto con tutta la modestia che lo contraddistingue."
+      },
+      {
+        "domanda": "Chi ha detto 'Laxalt facci sognare' almeno tre volte nella stessa giornata?",
+        "opzioni": [
+          "Pierino",
+          "Yuri",
+          "Gigio Petri"
+        ],
+        "corretta": "Gigio Petri",
+        "spiegazione": "Gigio ha invocato Laxalt come una divinità il 27 ottobre 2015, ripetendo 'Laxalt facci sognare' più volte. Laxalt poi ha segnato e il gruppo ha cambiato il nome della chat in FantaLaxalt. La fede viene premiata."
+      },
+      {
+        "domanda": "Chi ha detto 'Non c'è una cura per voi' dopo una nottata di emoji inviate a raffica?",
+        "opzioni": [
+          "Manu",
+          "Prisco",
+          "Gigio Petri"
+        ],
+        "corretta": "Gigio Petri",
+        "spiegazione": "\"Non c'è una cura per voi\" — Gigio il mattino dopo che Lele e Manu si erano mandati emoji a raffica per mezz'ora di notte. Una diagnosi medica accurata."
+      },
+      {
+        "domanda": "Chi ha descritto la Fulminense FC come squadra che 'vi mette dietro tutti'?",
+        "opzioni": [
+          "Meo",
+          "Lele",
+          "Padde"
+        ],
+        "corretta": "Lele",
+        "spiegazione": "\"Quest'anno la Fulminense vi mette dietri tuttiiiiii\" — Lele il 9 settembre 2015 con quattro punti esclamativi e quattro emoji di cacca. La Fulminense è la squadra di Meo nel Fantacalcio."
+      },
+      {
+        "domanda": "Come si chiama la squadra del Fantacalcio di Gigio Petri?",
+        "opzioni": [
+          "Desaparecidos FC",
+          "Cimbanella FC",
+          "Fulminense FC"
+        ],
+        "corretta": "Cimbanella FC",
+        "spiegazione": "Gigio gestisce la Cimbanella FC — nome decisamente originale. La squadra viene insultata regolarmente da Meo ('CIMBANELLA VAFFANCULO!!!') e difesa con altrettanto entusiasmo dal suo patron."
+      },
+      {
+        "domanda": "Come si chiama la squadra del Fantacalcio di Pierino?",
+        "opzioni": [
+          "Cimbanella FC",
+          "Fulminense FC",
+          "Desaparecidos FC"
+        ],
+        "corretta": "Desaparecidos FC",
+        "spiegazione": "La Desaparecidos FC di Pierino — un nome che evoca mistero e sparizioni improvvise, proprio come Canapino nel deserto. Pierino ne parla sempre con grandissimo orgoglio."
+      },
+      {
+        "domanda": "Chi sono i nuovi membri del gruppo apparsi nelle conversazioni più recenti (2022-2024)?",
+        "opzioni": [
+          "Pinolo e Frasca",
+          "Pila e Frasca",
+          "Antico e Fo"
+        ],
+        "corretta": "Pila e Frasca",
+        "spiegazione": "Pila e Frasca 🌿 appaiono nelle conversazioni più recenti (2022-2024), insieme ad Antico e Fo che erano già presenti dal 2016. Il gruppo si è espanso nel tempo come un buon vino."
+      },
+      {
+        "domanda": "Cosa ha proposto Pila per la fantacena di Natale 2022, scatenando reazioni di orrore?",
+        "opzioni": [
+          "Pizza hawaiana",
+          "Sushi",
+          "Trippa"
+        ],
+        "corretta": "Sushi",
+        "spiegazione": "\"Si va al sushi\" — Pila con carta bianca per organizzare la cena. Manu ha risposto: \"Non fare cazzate. Tipo sushi 😂\". Gala ha mandato 🙈. Il sushi non è nel DNA del FantaLeggenda."
+      },
+      {
+        "domanda": "Come ha definito Gigio Manu nella chat del 2022 quando doveva decidere il ristorante?",
+        "opzioni": [
+          "Il Grande Capo",
+          "Il super mega campionissimo fortissimo simpaticissimo bellissimo",
+          "Il nostro salvatore"
+        ],
+        "corretta": "Il super mega campionissimo fortissimo simpaticissimo bellissimo",
+        "spiegazione": "\"Io sceglierei il super mega campionissimo fortissimo simpaticissimo bellissimo Manu\" — Gigio il 20 dicembre 2022. Tanta ironia, zero sarcasmo. Manu ha risposto: \"Fuori\" e \"😂\"."
+      },
+      {
+        "domanda": "Il Fo ha proposto un indovinello al gruppo: Q di 007 + Oche non ammazza (Pistorius) = ?",
+        "opzioni": [
+          "Chi non sente non pecca",
+          "Quello che non ammazza ingrassa",
+          "Il silenzio è d'oro"
+        ],
+        "corretta": "Quello che non ammazza ingrassa",
+        "spiegazione": "Q (personaggio di 007) + 'Uelle OCHE non AMMAZZA' (Pistorius che non ammazzò le oche) = 'Quello che non ammazza ingrassa'. Un indovinello di livello PhD in creatività trash. Gigio non sapeva chi fosse Q di 007."
+      },
+      {
+        "domanda": "Quante volte appare 'aperitivo' nella chat rispetto a 'pizza'?",
+        "opzioni": [
+          "Aperitivo meno di pizza",
+          "Aperitivo uguale a pizza",
+          "Aperitivo più di pizza (73 vs 21)"
+        ],
+        "corretta": "Aperitivo più di pizza (73 vs 21)",
+        "spiegazione": "Aperitivo: 73 volte. Pizza: 21 volte. Il gruppo parla di aperitivi 3,5 volte più spesso che di pizza. Priorità chiare nella vita."
+      },
+      {
+        "domanda": "Cosa ha fatto Gigio dopo aver visto la chat piena di emoji alle 2 di notte e aver detto che 'non c'è una cura per voi'?",
+        "opzioni": [
+          "Ha mandato 50 emoji a sua volta",
+          "Ha scritto un lungo messaggio di protesta",
+          "Ha commentato con una sola riga e basta"
+        ],
+        "corretta": "Ha commentato con una sola riga e basta",
+        "spiegazione": "Gigio è il filosofo del gruppo — interviene con aforismi brevi e micidiali ('Non c'è una cura per voi', 'Anche io devo avere un cinquantino') e poi sparisce. Economia di parole, massimo impatto."
+      },
+      {
+        "domanda": "Gala scrive 'buongiorno' nella chat esattamente quante volte in 9 anni?",
+        "opzioni": [
+          "0 volte",
+          "2 volte",
+          "17 volte"
+        ],
+        "corretta": "0 volte",
+        "spiegazione": "Zero buongiorno in 9 anni. Anche Cileno: zero. Gala probabilmente considera il buongiorno una debolezza o semplicemente non è una mattinara. Pierino invece lo scrive 13 volte — abbastanza per compensare."
+      },
+      {
+        "domanda": "In che anno è iniziata la chat del FantaLeggenda?",
+        "opzioni": [
+          "2013",
+          "2015",
+          "2017"
+        ],
+        "corretta": "2015",
+        "spiegazione": "Il primo messaggio è del 27 giugno 2015 — Manu ha mandato due media omessi e poi Yuri ha considerato il divorzio. Un inizio in grande stile per quella che sarebbe diventata una chat leggendaria."
+      },
+      {
+        "domanda": "Pierino ha una frase ricorrente quando qualcuno fa una mossa a sorpresa: lo chiama come un animale. Quale?",
+        "opzioni": [
+          "Serpente",
+          "Topo 🐭",
+          "Volpe"
+        ],
+        "corretta": "Topo 🐭",
+        "spiegazione": "\"Nei conti del pulmino te ci rietri 🐭\" — Pierino usa l'emoji del topo per chi fa mosse furbe o risparmia in modo creativo. È il massimo appellativo di astuzia nel vocabolario del gruppo."
+      },
+      {
+        "domanda": "Come si chiama il locale ad Arezzo dove il gruppo fa gli aperitivi citato da Pierino?",
+        "opzioni": [
+          "Il Naboo",
+          "Lo Strawberry",
+          "Il Principe"
+        ],
+        "corretta": "Il Naboo",
+        "spiegazione": "\"Sennò Manu al Nabooooooo... aperitivo dal jonny e poi lì vicino!\" — Pierino il 9 luglio 2015. Il Naboo è il locale degli aperitivi, il Principe per le cene. Una geografia aretina precisa."
+      },
+      {
+        "domanda": "INDOVINELLO STATISTICO: Se il gruppo dice 'cazzo' 386 volte in 9 anni, quante volte al mese in media?",
+        "opzioni": [
+          "Circa 1 volta al mese",
+          "Circa 3,5 volte al mese",
+          "Circa 10 volte al mese"
+        ],
+        "corretta": "Circa 3,5 volte al mese",
+        "spiegazione": "386 ÷ 108 mesi ≈ 3,57 volte al mese. Ovvero circa una volta ogni 8-9 giorni qualcuno scrive 'cazzo' nella chat. Una frequenza moderata, quasi professionale."
+      },
+      {
+        "domanda": "Chi nel gruppo gioca a tutto — anche ai videogiochi — secondo Manu?",
+        "opzioni": [
+          "Meo",
+          "Yuri",
+          "Paggio"
+        ],
+        "corretta": "Yuri",
+        "spiegazione": "\"Juri giocherà eh. Gioca a tutto lui\" — Manu il 23 novembre 2020 durante l'organizzazione della serata gaming. Yuri quella sera però era già a letto dalle 22:40. Anche i tuttogiocatori hanno i loro limiti."
+      },
+      {
+        "domanda": "Cosa ha risposto Yuri quando Manu lo ha chiamato per giocare a Crash alle 22:40?",
+        "opzioni": [
+          "Arrivo subito!",
+          "Io sono a letto da mezz'ora 🥺",
+          "Non ho internet"
+        ],
+        "corretta": "Io sono a letto da mezz'ora 🥺",
+        "spiegazione": "\"io sono a letto da mezz'ora 🥺\" — Yuri con la faccina triste. Lui che 'gioca a tutto' era già sotto le coperte alle 22:10 di un lunedì sera. Manu ha risposto con 😭."
+      },
+      {
+        "domanda": "VERO O FALSO: Gigio ha vinto la partita di mini ping-pong contro Canapino.",
+        "opzioni": [
+          "VERO secondo Pierino, FALSO secondo Canapino",
+          "VERO — tutti confermano",
+          "FALSO — ha perso"
+        ],
+        "corretta": "VERO secondo Pierino, FALSO secondo Canapino",
+        "spiegazione": "Pierino si è vantato della vittoria definendola leggendaria. Canapino ha risposto: 'Ti ho fatto vincere 😗'. La verità, come sempre in questo gruppo, dipende da chi lo racconta."
+      },
+      {
+        "domanda": "Come ha risposto Manu quando Gigio gli ha chiesto di organizzare il ristorante per la fantacena 2022?",
+        "opzioni": [
+          "Ha accettato subito con entusiasmo",
+          "Ha detto 'Fuori' e poi 'Ci penso' senza impegnarsi",
+          "Ha proposto il sushi"
+        ],
+        "corretta": "Ha detto 'Fuori' e poi 'Ci penso' senza impegnarsi",
+        "spiegazione": "Manu ha prima votato 'Fuori' (per non andare da Pinolo), poi quando Gigio lo ha caricato di responsabilità ha risposto 'Ci penso... Non a fissare, al Prisco'. Classica tattica di deviazione."
+      },
+      {
+        "domanda": "Quanti messaggi in meno ha scritto Cileno (626) rispetto a Paggio (520)?",
+        "opzioni": [
+          "Cileno ne ha scritti 106 in più",
+          "Cileno ne ha scritti 106 in meno",
+          "Sono uguali"
+        ],
+        "corretta": "Cileno ne ha scritti 106 in più",
+        "spiegazione": "Cileno 626 vs Paggio 520 — Cileno è davanti di 106 messaggi. Paggio però compensa in qualità: arriva alle serate già mangiato, chiede le zuzze e propone orari impossibili. Efficienza comunicativa al massimo."
       }
     ],
     "difficile": [
@@ -1368,6 +1808,206 @@
         ],
         "corretta": "Ogni 13-14 messaggi",
         "spiegazione": "14.060 ÷ 191.272 = circa 1 ogni 13,6 messaggi. Considerando che molti messaggi contengono più 😂, si può dire che il gruppo ride in modo quasi industriale. Nota: questa statistica non include le risate scritte come 'ahahahaha' (altre 314 occorrenze)."
+      },
+      {
+        "domanda": "Il 27 ottobre 2015 è il giorno record con 632 messaggi. A cosa era dedicata principalmente quella giornata?",
+        "opzioni": [
+          "Una gita del gruppo andata male",
+          "Polemiche sul Fantacalcio e cambi di mercato",
+          "Il compleanno di qualcuno"
+        ],
+        "corretta": "Polemiche sul Fantacalcio e cambi di mercato",
+        "spiegazione": "Il 27 ottobre 2015 alle 8 di mattina Padde gridava già al ricorso per una comunicazione tardiva di Gigio sul mercato del Fanta. Quel giorno è stato anche cambiato il nome del gruppo in FantaMarquez, poi FantaConcionerossss, poi di nuovo FantaMarquez. Una giornata produttiva."
+      },
+      {
+        "domanda": "Quanti messaggi totali sono stati scritti nella chat (approssimativamente)?",
+        "opzioni": [
+          "Circa 50.000",
+          "Circa 100.000",
+          "Circa 191.000"
+        ],
+        "corretta": "Circa 191.000",
+        "spiegazione": "191.272 righe nel file esportato — considerando che ogni messaggio occupa almeno una riga, sono circa 170.000-180.000 messaggi effettivi al netto delle righe sistema. In 9 anni, fanno circa 52 messaggi al giorno ogni giorno senza mai fermarsi."
+      },
+      {
+        "domanda": "Se Pierino con 5.460 messaggi è il primo, e Manu con 3.468 è il secondo, di quanti messaggi è il distacco?",
+        "opzioni": [
+          "Circa 1.000 messaggi",
+          "Circa 2.000 messaggi",
+          "Circa 500 messaggi"
+        ],
+        "corretta": "Circa 2.000 messaggi",
+        "spiegazione": "5.460 - 3.468 = 1.992 messaggi di distacco. Pierino ha scritto quasi il doppio di Manu. Se ogni messaggio fosse una parola, Pierino avrebbe scritto un romanzo da 1.992 parole in più rispetto al secondo classificato."
+      },
+      {
+        "domanda": "Yuri ha scritto due volte di fila 'C'è Mazzoli???' nell'agosto 2015. Quante volte Yuri ha scritto questa domanda nella stessa sessione?",
+        "opzioni": [
+          "2 volte",
+          "3 volte",
+          "4 volte"
+        ],
+        "corretta": "3 volte",
+        "spiegazione": "Il 5 agosto 2015, Yuri ha scritto 'C'è Mazzoli???' tre volte consecutive in neanche un minuto. Nessuno ha risposto. Mazzoli evidentemente non c'era, oppure si stava nascondendo come Canapino nel deserto."
+      },
+      {
+        "domanda": "La chat è partita il 27 giugno 2015. Qual era l'emoji usata nel primissimo messaggio non-media della chat?",
+        "opzioni": [
+          "😂",
+          "😢",
+          "👍"
+        ],
+        "corretta": "😢",
+        "spiegazione": "Il secondo messaggio in assoluto è di Yuri: 'C'ho ripensato 😢' — seguito da '😂😂😂'. La chat del FantaLeggenda è partita con una lacrima. Poetico. Poi Yuri ha spiegato di aver ripensato al divorzio perché 'è caro'."
+      },
+      {
+        "domanda": "Qual è il rapporto tra le volte che il gruppo si è detto 'ti voglio bene' (23) e le volte che ha scritto 'cazzo' (386)?",
+        "opzioni": [
+          "Circa 1 a 10",
+          "Circa 1 a 17",
+          "Circa 1 a 30"
+        ],
+        "corretta": "Circa 1 a 17",
+        "spiegazione": "386 ÷ 23 ≈ 16,8. Per ogni dichiarazione d'affetto ci sono circa 17 'cazzo'. Questo non significa che il gruppo non si voglia bene — significa che lo esprime in modo molto particolare. È la matematica dell'amicizia virile aretina."
+      },
+      {
+        "domanda": "Se sommiamo i messaggi di Pierino (5.460), Manu (3.468) e Gigio (2.816), quanti messaggi fanno i tre 'big' del gruppo?",
+        "opzioni": [
+          "Circa 10.000",
+          "Circa 11.744",
+          "Circa 9.500"
+        ],
+        "corretta": "Circa 11.744",
+        "spiegazione": "5.460 + 3.468 + 2.816 = 11.744 messaggi — i tre moschettieri coprono quasi il 70% di tutti i messaggi del gruppo considerando i 12 membri. Gli altri 9 si dividono il restante 30%. Democrazia non pervenuta."
+      },
+      {
+        "domanda": "Pierino ha mandato 759 media. Se fossero tutti meme del Fantacalcio da 100KB l'uno, quanti MB di meme ha prodotto?",
+        "opzioni": [
+          "Circa 26 MB",
+          "Circa 76 MB",
+          "Circa 150 MB"
+        ],
+        "corretta": "Circa 76 MB",
+        "spiegazione": "759 × 100KB = circa 76MB di contenuto multimediale. Ovviamente non sono tutti meme e non tutti pesano 100KB, ma l'ordine di grandezza è quello. Abbastanza per riempire un CD-ROM degli anni '90 con i contributi di Pierino."
+      },
+      {
+        "domanda": "La disputa sul mercato Fantacalcio del 27 ottobre 2015 ha generato 632 messaggi. Quante votazioni formali ci sono state in quella giornata?",
+        "opzioni": [
+          "Nessuna — Gigio ha deciso da solo",
+          "Una votazione ufficiale",
+          "Tre votazioni separate"
+        ],
+        "corretta": "Nessuna — Gigio ha deciso da solo",
+        "spiegazione": "\"Non c'è bisogno di votare. Non rubo nessuno. Ho già deciso io.\" — Gigio il 27 ottobre 2015. Nonostante Pierino avesse fissato la scadenza alle 14:00, Canapino si fosse astenuto con comunicato ufficiale e Padde avesse gridato al ricorso, Gigio ha semplicemente risolto la questione da solo."
+      },
+      {
+        "domanda": "Quante squadre del Fantacalcio vengono nominate esplicitamente nella chat?",
+        "opzioni": [
+          "2 squadre",
+          "3 squadre",
+          "4 o più squadre"
+        ],
+        "corretta": "4 o più squadre",
+        "spiegazione": "Almeno 4 squadre vengono nominate: Cimbanella FC (Gigio), Desaparecidos FC (Pierino), Fulminense FC (Meo) e A.C.Picchia (Canapino). Ogni squadra ha la sua personalità — come il proprietario."
+      },
+      {
+        "domanda": "Il nome del gruppo è cambiato in FantaLaxalt dopo un gol. Di quale campionato/competizione si trattava?",
+        "opzioni": [
+          "Campionato di Serie A",
+          "Champions League",
+          "Non viene specificato nella chat"
+        ],
+        "corretta": "Non viene specificato nella chat",
+        "spiegazione": "La chat riporta solo 'Laxalt!!!' di Yuri e il cambio nome immediato in FantaLaxalt. Non viene specificato se fosse Serie A o altra competizione. L'importante è che segnò — e Gigio era euforico."
+      },
+      {
+        "domanda": "SFIDA MATEMATICA: Se la chat ha 191.272 righe e i 3 più attivi (Pierino 5.460, Manu 3.468, Gigio 2.816) coprono 11.744 messaggi, che percentuale del totale righe rappresentano?",
+        "opzioni": [
+          "Circa il 3%",
+          "Circa il 6%",
+          "Circa il 12%"
+        ],
+        "corretta": "Circa il 6%",
+        "spiegazione": "11.744 ÷ 191.272 × 100 ≈ 6,1%. Considerando che molte righe sono righe di sistema, media omessi e messaggi brevi, i tre big coprono una fetta sproporzionata del contenuto testuale effettivo — probabilmente oltre il 40% delle parole scritte."
+      },
+      {
+        "domanda": "Chi ha scritto di più tra Meo (1.715) e Padde (1.650)?",
+        "opzioni": [
+          "Padde con 1.650",
+          "Meo con 1.715",
+          "Sono praticamente uguali — meno di 4% di differenza"
+        ],
+        "corretta": "Meo con 1.715",
+        "spiegazione": "Meo con 1.715 batte Padde con 1.650 — solo 65 messaggi di differenza in 9 anni. Meno di 1 messaggio a settimana di distacco. La sfida più serrata della classifica messaggi del FantaLeggenda."
+      },
+      {
+        "domanda": "Canapino ha emesso un 'Comunicato ufficiale dell'A.C.Picchia' per astenersi da una votazione. Cosa ha risposto Pierino?",
+        "opzioni": [
+          "Ha accettato l'astensione",
+          "Ha detto 'Non puoi astenerti Cana! ...vota!'",
+          "Ha emesso a sua volta un comunicato ufficiale della Desaparecidos"
+        ],
+        "corretta": "Ha detto 'Non puoi astenerti Cana! ...vota!'",
+        "spiegazione": "\"Non puoi astenerti Cana! ...vota!\" — Pierino, che aveva fissato la scadenza alle 14:00 e non accettava eccezioni. Gigio intanto aveva già deciso da solo rendendo tutta la discussione inutile."
+      },
+      {
+        "domanda": "Se ogni messaggio di Pierino (5.460) fosse lungo in media 10 parole, quante parole ha scritto in 9 anni?",
+        "opzioni": [
+          "Circa 27.000 parole",
+          "Circa 54.600 parole",
+          "Circa 100.000 parole"
+        ],
+        "corretta": "Circa 54.600 parole",
+        "spiegazione": "5.460 × 10 = 54.600 parole. Per confronto, un romanzo medio ha circa 80.000 parole. Pierino è a metà romanzo. Considerando però che molti messaggi sono una sola emoji o 'Si', le parole effettive potrebbero essere meno — ma anche molti messaggi sono lunghi sfoghi sul Fantacalcio."
+      },
+      {
+        "domanda": "Yuri ha scritto 'C'è Mazzoli???' tre volte di fila. Quanto tempo è passato tra il primo e il terzo messaggio?",
+        "opzioni": [
+          "Circa 1 minuto",
+          "Circa 10 minuti",
+          "Circa 1 ora"
+        ],
+        "corretta": "Circa 1 minuto",
+        "spiegazione": "Il 5 agosto 2015: due messaggi alle 16:54 e uno alle 16:55 — meno di un minuto. Yuri era evidentemente urgentissimo nel trovare Mazzoli. Mazzoli non ha mai risposto (almeno non nella chat)."
+      },
+      {
+        "domanda": "Cosa succede nella chat quando qualcuno scrive 'Eia!'?",
+        "opzioni": [
+          "Tutti rispondono con insulti",
+          "È il segnale per pagare il conto",
+          "È il brindisi del gruppo e tutti rispondono con 'Eia!'"
+        ],
+        "corretta": "È il brindisi del gruppo e tutti rispondono con 'Eia!'",
+        "spiegazione": "Dal 28 giugno 2015, 'Eia!' (spesso con 🍷) è il brindisi ufficiale del FantaLeggenda. Lanciato da Canapino come 'Egliaaaa', si è evoluto nel semplice 'Eia!' che tutti riconoscono e ripetono. È il momento più tenero della chat."
+      },
+      {
+        "domanda": "Come viene chiamata la gita/uscita periodica del gruppo nel linguaggio della chat?",
+        "opzioni": [
+          "La missione",
+          "La gita",
+          "L'operazione"
+        ],
+        "corretta": "La gita",
+        "spiegazione": "'La gita' è l'evento ricorrente del gruppo — un weekend o una giornata fuori tutti insieme. Lele nel primo messaggio commovente la cita come uno dei pilastri del gruppo: 'la gita, un sorriso, una pacca sulla spalla'."
+      },
+      {
+        "domanda": "Chi ha definito la chat 'una banda bellissima' nel messaggio di Natale 2015?",
+        "opzioni": [
+          "Gigio Petri",
+          "Pierino",
+          "Lele"
+        ],
+        "corretta": "Lele",
+        "spiegazione": "\"Non è tanto per il natale in se per se, diciamo che è un buona scusa per ricordare quanto cazzo siamo fantastaspaci... una banda bellissima\" — Lele il 25 dicembre 2015 alle 4:55 di mattina. Poetico e puntuale come sempre."
+      },
+      {
+        "domanda": "Qual è il soprannome del gruppo che Pierino usa nel buongiorno del 29 giugno 2015?",
+        "opzioni": [
+          "Cricca",
+          "Branco",
+          "Banda"
+        ],
+        "corretta": "Branco",
+        "spiegazione": "\"Buongiorno 'branco'!\" — Pierino il 29 giugno 2015. Un saluto affettuoso che dice tutto sul tipo di amicizia del gruppo: un branco unito, leale e rumoroso."
       }
     ]
   }
